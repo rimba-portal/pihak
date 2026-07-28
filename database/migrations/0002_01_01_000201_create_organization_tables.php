@@ -11,28 +11,33 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('job_positions', function (Blueprint $table) {
+        Schema::create('org_corps', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('org_unit_id')->nullable()->constrained();
-            $table->enum('level', ['junior', 'mid', 'senior', 'lead', 'manager'])->nullable();
-            $table->enum('status', ['open', 'filled', 'closed'])->default('open');
-            $table->string('title');
-            $table->text('description')->nullable();
-            $table->json('attributes')->nullable();
-            $table->timestamps();
-        });
-        Schema::create('job_roles', function (Blueprint $table) {
-            $table->id();
-            $table->enum('type', ['approval', 'operation', 'admin', 'reporting'])->nullable();
             $table->string('name');
-            $table->text('description')->nullable();
+            $table->string('code')->nullable();
+            $table->string('uuid')->unique();
+            $table->enum('type', ['company', 'government', 'vendor', 'institution'])->nullable();
             $table->json('attributes')->nullable();
             $table->timestamps();
         });
-        Schema::create('job_position_roles', function (Blueprint $table) {
+        Schema::create('org_units', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('job_position_id')->constrained();
-            $table->foreignId('job_role_id')->constrained();
+            $table->foreignId('org_corp_id')->nullable()->constrained();
+            $table->foreignId('parent_id')->nullable()->constrained('org_units');
+            $table->string('name');
+            $table->string('code')->nullable();
+            $table->string('uuid')->unique();
+            $table->string('description')->nullable();
+            $table->json('attributes')->nullable();
+            $table->timestamps();
+        });
+        Schema::create('org_teams', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('org_unit_id')->constrained();
+            $table->string('name');
+            $table->string('code')->nullable();
+            $table->boolean('is_active')->default(true);
+            $table->json('attributes')->nullable();
             $table->timestamps();
         });
     }
@@ -42,8 +47,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('job_position_roles');
-        Schema::dropIfExists('job_roles');
-        Schema::dropIfExists('job_positions');
+        Schema::dropIfExists('org_teams');
+        Schema::dropIfExists('org_units');
+        Schema::dropIfExists('org_corps');
     }
 };
