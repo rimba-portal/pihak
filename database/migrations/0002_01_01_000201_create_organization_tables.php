@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('org_corps', function (Blueprint $table) {
+        Schema::create('org_corps', function (Blueprint $table): void {
             $table->id();
             $table->string('name');
             $table->string('code')->nullable();
@@ -20,7 +20,7 @@ return new class extends Migration
             $table->json('attributes')->nullable();
             $table->timestamps();
         });
-        Schema::create('org_units', function (Blueprint $table) {
+        Schema::create('org_units', function (Blueprint $table): void {
             $table->id();
             $table->foreignId('org_corp_id')->nullable()->constrained();
             $table->foreignId('parent_id')->nullable()->constrained('org_units');
@@ -31,7 +31,7 @@ return new class extends Migration
             $table->json('attributes')->nullable();
             $table->timestamps();
         });
-        Schema::create('org_teams', function (Blueprint $table) {
+        Schema::create('org_teams', function (Blueprint $table): void {
             $table->id();
             $table->foreignId('org_unit_id')->constrained();
             $table->string('name');
