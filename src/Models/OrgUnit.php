@@ -57,4 +57,9 @@ class OrgUnit extends Model
     {
         return $this->belongsTo(OrgUnit::class);
     }
+
+    public function nick(): string
+    {
+        return $this->code ?: $this->name;
+    }
 }

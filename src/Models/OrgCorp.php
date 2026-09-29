@@ -37,4 +37,9 @@ class OrgCorp extends Model
     {
         return $this->hasMany(OrgUnit::class);
     }
+
+    public function nick(): string
+    {
+        return $this->code ?: $this->name;
+    }
 }
