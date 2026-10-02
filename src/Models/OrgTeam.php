@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Rimba\Agreement\Models\Agreement;
 
 #[Fillable([
     'org_unit_id',
@@ -34,11 +33,6 @@ class OrgTeam extends Model
             'is_active' => 'boolean',
             'attributes' => 'array',
         ];
-    }
-
-    public function agreement(): BelongsTo
-    {
-        return $this->belongsTo(Agreement::class);
     }
 
     public function orgUnit(): BelongsTo
