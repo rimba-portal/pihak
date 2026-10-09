@@ -1,0 +1,4084 @@
+{
+    "job_roles": [
+        {
+            "code": "ACCOUNT_MANAGER",
+            "name": "Account Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads account activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "AFFECTED_DEPARTMENTS",
+            "name": "Affected Departments",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant affected departments, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "AFFECTED_EMPLOYEES",
+            "name": "Affected Employees",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant affected employees, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "AFFECTED_STAKEHOLDERS",
+            "name": "Affected Stakeholders",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant affected stakeholders, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "ASSET_CUSTODIAN",
+            "name": "Asset Custodian",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the asset custodian function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "ASSET_MANAGER",
+            "name": "Asset Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads asset activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "ASSET_OWNER",
+            "name": "Asset Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual asset owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "ASSIGNED_TECHNICIAN",
+            "name": "Assigned Technician",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual assigned technician responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "AUDITOR",
+            "name": "Auditor",
+            "actor_type": "JOB_ROLE",
+            "description ": "Plans and performs auditor audits, gathers evidence, documents findings, reports conclusions, and verifies corrective actions. "
+        },
+        {
+            "code": "AUDIT_COMMITTEE",
+            "name": "Audit Committee",
+            "actor_type": "ORG_TEAM",
+            "description ": "Provides collective governance for audit committee, reviews evidence and risks, records decisions, and monitors agreed actions. "
+        },
+        {
+            "code": "AUDIT_MANAGER",
+            "name": "Audit Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads audit activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "BUSINESS_DEVELOPMENT_MANAGER",
+            "name": "Business Development Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads business development activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "BUSINESS_OWNER",
+            "name": "Business Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual business owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "BUYER",
+            "name": "Buyer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the buyer function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "CALIBRATION_COORDINATOR",
+            "name": "Calibration Coordinator",
+            "actor_type": "JOB_ROLE",
+            "description ": "Coordinates calibration schedules, records, communications, resources, and follow-up actions to keep activities complete and timely. "
+        },
+        {
+            "code": "CALIBRATION_TECHNICIAN",
+            "name": "Calibration Technician",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs hands-on calibration work, follows approved instructions, records results, identifies abnormalities, and escalates issues. "
+        },
+        {
+            "code": "CAREER_DEVELOPMENT_ADVISOR",
+            "name": "Career Development Advisor",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the career development advisor function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "CERTIFICATION_ASSESSOR",
+            "name": "Certification Assessor",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the certification assessor function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "CERTIFICATION_AUTHORITY",
+            "name": "Certification Authority",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the certification authority function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "CHANGE_CONTROL_BOARD",
+            "name": "Change Control Board",
+            "actor_type": "ORG_TEAM",
+            "description ": "Reviews proposed controlled changes, evaluates cross-functional impacts and risks, approves or rejects changes, and governs implementation conditions. "
+        },
+        {
+            "code": "CHANGE_ENGINEER",
+            "name": "Change Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves change solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "CHANGE_REQUESTER",
+            "name": "Change Requester",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual change requester responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "COMPETENCY_ASSESSOR",
+            "name": "Competency Assessor",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the competency assessor function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "COMPLIANCE_ANALYST",
+            "name": "Compliance Analyst",
+            "actor_type": "JOB_ROLE",
+            "description ": "Collects and analyzes compliance information, identifies trends and risks, prepares reports, and supports evidence-based decisions. "
+        },
+        {
+            "code": "COMPLIANCE_AUDITOR",
+            "name": "Compliance Auditor",
+            "actor_type": "JOB_ROLE",
+            "description ": "Plans and performs compliance audits, gathers evidence, documents findings, reports conclusions, and verifies corrective actions. "
+        },
+        {
+            "code": "COMPLIANCE_COORDINATOR",
+            "name": "Compliance Coordinator",
+            "actor_type": "JOB_ROLE",
+            "description ": "Coordinates compliance schedules, records, communications, resources, and follow-up actions to keep activities complete and timely. "
+        },
+        {
+            "code": "COMPLIANCE_MANAGER",
+            "name": "Compliance Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads compliance activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "COMPLIANCE_OWNER",
+            "name": "Compliance Owner",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the compliance owner function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "CONTINUOUS_IMPROVEMENT_SPECIALIST",
+            "name": "Continuous Improvement Specialist",
+            "actor_type": "JOB_ROLE",
+            "description ": "Provides specialist support for continuous improvement, executes defined processes, maintains records, resolves issues, and recommends improvements. "
+        },
+        {
+            "code": "CONTRACTOR_COORDINATOR",
+            "name": "Contractor Coordinator",
+            "actor_type": "JOB_ROLE",
+            "description ": "Coordinates contractor schedules, records, communications, resources, and follow-up actions to keep activities complete and timely. "
+        },
+        {
+            "code": "CONTRACT_MANAGER",
+            "name": "Contract Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads contract activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "CONTRACT_OWNER",
+            "name": "Contract Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual contract owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "CONTROL_OWNER",
+            "name": "Control Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual control owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "CROSS_FUNCTIONAL_NPI_TEAM",
+            "name": "Cross Functional NPI Team",
+            "actor_type": "ORG_TEAM",
+            "description ": "Provides collective governance for cross functional npi team, reviews evidence and risks, records decisions, and monitors agreed actions. "
+        },
+        {
+            "code": "CUSTOMER_SERVICE_TEAM",
+            "name": "Customer Service Team",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant customer service team, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "CUSTOMER_STAKEHOLDERS",
+            "name": "Customer Stakeholders",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant customer stakeholders, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "CUSTOMER_SUCCESS_MANAGER",
+            "name": "Customer Success Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads customer success activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "DELIVERY_COORDINATOR",
+            "name": "Delivery Coordinator",
+            "actor_type": "JOB_ROLE",
+            "description ": "Coordinates delivery schedules, records, communications, resources, and follow-up actions to keep activities complete and timely. "
+        },
+        {
+            "code": "DEMAND_ANALYST",
+            "name": "Demand Analyst",
+            "actor_type": "JOB_ROLE",
+            "description ": "Collects and analyzes demand information, identifies trends and risks, prepares reports, and supports evidence-based decisions. "
+        },
+        {
+            "code": "DEMAND_PLANNER",
+            "name": "Demand Planner",
+            "actor_type": "JOB_ROLE",
+            "description ": "Plans demand demand, capacity, resources, timing, and dependencies; monitors adherence; and adjusts plans when conditions change. "
+        },
+        {
+            "code": "DEPARTMENT_MANAGER",
+            "name": "Department Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads department activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "DESIGN_ENGINEER",
+            "name": "Design Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves design solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "DESIGN_REVIEW_BOARD",
+            "name": "Design Review Board",
+            "actor_type": "ORG_TEAM",
+            "description ": "Provides collective governance for design review board, reviews evidence and risks, records decisions, and monitors agreed actions. "
+        },
+        {
+            "code": "DOCUMENT_APPROVER",
+            "name": "Document Approver",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the document approver function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "DOCUMENT_AUTHOR",
+            "name": "Document Author",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the document author function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "DOCUMENT_CONTROLLER",
+            "name": "Document Controller",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the document controller function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "DOCUMENT_CONTROL_MANAGER",
+            "name": "Document Control Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads document control activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "DOCUMENT_REVIEWER",
+            "name": "Document Reviewer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the document reviewer function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "DOCUMENT_USERS",
+            "name": "Document Users",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant document users, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "EHS_MANAGER",
+            "name": "EHS Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads ehs activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "EMPLOYEE",
+            "name": "Employee",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual employee responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "ENGINEERING_MANAGER",
+            "name": "Engineering Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads engineering activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "ENTERPRISE_ARCHITECT",
+            "name": "Enterprise Architect",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the enterprise architect function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "ENVIRONMENTAL_ENGINEER",
+            "name": "Environmental Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves environmental solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "ENVIRONMENTAL_SPECIALIST",
+            "name": "Environmental Specialist",
+            "actor_type": "JOB_ROLE",
+            "description ": "Provides specialist support for environmental, executes defined processes, maintains records, resolves issues, and recommends improvements. "
+        },
+        {
+            "code": "EQUIPMENT_ENGINEER",
+            "name": "Equipment Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves equipment solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "EQUIPMENT_MANAGER",
+            "name": "Equipment Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads equipment activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "EQUIPMENT_OWNER",
+            "name": "Equipment Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual equipment owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "EXECUTIVE_LEADERSHIP_TEAM",
+            "name": "Executive Leadership Team",
+            "actor_type": "ORG_TEAM",
+            "description ": "Provides collective governance for executive leadership team, reviews evidence and risks, records decisions, and monitors agreed actions. "
+        },
+        {
+            "code": "EXECUTIVE_SPONSOR",
+            "name": "Executive Sponsor",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the executive sponsor function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "FACILITY_ENGINEER",
+            "name": "Facility Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves facility solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "FACILITY_MAINTENANCE_ENGINEER",
+            "name": "Facility Maintenance Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves facility maintenance solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "FACILITY_MANAGER",
+            "name": "Facility Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads facility activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "FINANCE_MANAGER",
+            "name": "Finance Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads finance activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "FULFILLMENT_MANAGER",
+            "name": "Fulfillment Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads fulfillment activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "HIRING_MANAGER",
+            "name": "Hiring Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads hiring activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "HR_BUSINESS_PARTNER",
+            "name": "HR Business Partner",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the hr business partner function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "HR_DIRECTOR",
+            "name": "HR Director",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the hr director function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "HR_MANAGER",
+            "name": "HR Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads hr activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "HR_OPERATIONS_OWNER",
+            "name": "HR Operations Owner",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the hr operations owner function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "IMPLEMENTATION_OWNER",
+            "name": "Implementation Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual implementation owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "INCIDENT_INVESTIGATOR",
+            "name": "Incident Investigator",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the incident investigator function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "INCIDENT_MANAGER",
+            "name": "Incident Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads incident activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "INCIDENT_RESPONSE_LEAD",
+            "name": "Incident Response Lead",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the incident response lead function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "INFORMATION_SECURITY_MANAGER",
+            "name": "Information Security Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads information security activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "INITIATIVE_OWNER",
+            "name": "Initiative Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual initiative owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "INVENTORY_CONTROLLER",
+            "name": "Inventory Controller",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the inventory controller function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "INVENTORY_MANAGER",
+            "name": "Inventory Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads inventory activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "IT_MANAGER",
+            "name": "IT Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads it activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "KNOWLEDGE_AUTHOR",
+            "name": "Knowledge Author",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the knowledge author function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "KNOWLEDGE_CURATOR",
+            "name": "Knowledge Curator",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the knowledge curator function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "KNOWLEDGE_MANAGER",
+            "name": "Knowledge Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads knowledge activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "KNOWLEDGE_USER",
+            "name": "Knowledge User",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual knowledge user responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "KNOWLEDGE_USERS",
+            "name": "Knowledge Users",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant knowledge users, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "LEAD_AUDITOR",
+            "name": "Lead Auditor",
+            "actor_type": "JOB_ROLE",
+            "description ": "Plans and performs lead audits, gathers evidence, documents findings, reports conclusions, and verifies corrective actions. "
+        },
+        {
+            "code": "LEARNING_AND_DEVELOPMENT_MANAGER",
+            "name": "Learning And Development Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads learning and development activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "LEGAL_COUNSEL",
+            "name": "Legal Counsel",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the legal counsel function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "LINE_MANAGER",
+            "name": "Line Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads line activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "LOGISTICS_COORDINATOR",
+            "name": "Logistics Coordinator",
+            "actor_type": "JOB_ROLE",
+            "description ": "Coordinates logistics schedules, records, communications, resources, and follow-up actions to keep activities complete and timely. "
+        },
+        {
+            "code": "LOGISTICS_MANAGER",
+            "name": "Logistics Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads logistics activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "MAINTENANCE_ENGINEER",
+            "name": "Maintenance Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves maintenance solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "MAINTENANCE_MANAGER",
+            "name": "Maintenance Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads maintenance activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "MAINTENANCE_PLANNER",
+            "name": "Maintenance Planner",
+            "actor_type": "JOB_ROLE",
+            "description ": "Plans maintenance demand, capacity, resources, timing, and dependencies; monitors adherence; and adjusts plans when conditions change. "
+        },
+        {
+            "code": "MAINTENANCE_SCHEDULER",
+            "name": "Maintenance Scheduler",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the maintenance scheduler function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "MAINTENANCE_SUPERVISOR",
+            "name": "Maintenance Supervisor",
+            "actor_type": "JOB_ROLE",
+            "description ": "Supervises day-to-day maintenance work, assigns resources, verifies execution, enforces requirements, and escalates exceptions. "
+        },
+        {
+            "code": "MAINTENANCE_TECHNICIAN",
+            "name": "Maintenance Technician",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs hands-on maintenance work, follows approved instructions, records results, identifies abnormalities, and escalates issues. "
+        },
+        {
+            "code": "MANUFACTURING_ENGINEER",
+            "name": "Manufacturing Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves manufacturing solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "MANUFACTURING_ENGINEERING_MANAGER",
+            "name": "Manufacturing Engineering Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads manufacturing engineering activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "MANUFACTURING_MANAGER",
+            "name": "Manufacturing Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads manufacturing activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "MARKETING_MANAGER",
+            "name": "Marketing Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads marketing activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "MARKET_RESEARCH_ANALYST",
+            "name": "Market Research Analyst",
+            "actor_type": "JOB_ROLE",
+            "description ": "Collects and analyzes market research information, identifies trends and risks, prepares reports, and supports evidence-based decisions. "
+        },
+        {
+            "code": "MATERIALS_MANAGER",
+            "name": "Materials Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads materials activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "MATERIAL_HANDLER",
+            "name": "Material Handler",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the material handler function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "MATERIAL_PLANNER",
+            "name": "Material Planner",
+            "actor_type": "JOB_ROLE",
+            "description ": "Plans material demand, capacity, resources, timing, and dependencies; monitors adherence; and adjusts plans when conditions change. "
+        },
+        {
+            "code": "MENTOR",
+            "name": "Mentor",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual mentor responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "METROLOGY_ENGINEER",
+            "name": "Metrology Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves metrology solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "NOMINATED_SUCCESSOR",
+            "name": "Nominated Successor",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual nominated successor responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "NPI_MANAGER",
+            "name": "NPI Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads npi activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "NPI_TEAM",
+            "name": "NPI Team",
+            "actor_type": "ORG_TEAM",
+            "description ": "Provides collective governance for npi team, reviews evidence and risks, records decisions, and monitors agreed actions. "
+        },
+        {
+            "code": "OPERATIONS_TEAM",
+            "name": "Operations Team",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant operations team, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "ORDER_FULFILLMENT_MANAGER",
+            "name": "Order Fulfillment Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads order fulfillment activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "ORDER_MANAGEMENT_SPECIALIST",
+            "name": "Order Management Specialist",
+            "actor_type": "JOB_ROLE",
+            "description ": "Provides specialist support for order management, executes defined processes, maintains records, resolves issues, and recommends improvements. "
+        },
+        {
+            "code": "ORGANIZATION_LEADERSHIP",
+            "name": "Organization Leadership",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant organization leadership, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "PACKAGING_OPERATOR",
+            "name": "Packaging Operator",
+            "actor_type": "JOB_ROLE",
+            "description ": "Executes operational packaging activities, operates assigned equipment, handles materials or products, records results, and follows safety and quality standards. "
+        },
+        {
+            "code": "PARTNERSHIP_MANAGER",
+            "name": "Partnership Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads partnership activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "PARTNERSHIP_OWNER",
+            "name": "Partnership Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual partnership owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "PEOPLE_DEVELOPMENT_MANAGER",
+            "name": "People Development Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads people development activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "PEOPLE_DEVELOPMENT_OWNER",
+            "name": "People Development Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual people development owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "PROCESS_ENGINEER",
+            "name": "Process Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves process solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "PROCESS_OWNER",
+            "name": "Process Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual process owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "PROCUREMENT_MANAGER",
+            "name": "Procurement Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads procurement activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "PRODUCTION_ENGINEER",
+            "name": "Production Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves production solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "PRODUCTION_MANAGER",
+            "name": "Production Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads production activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "PRODUCTION_OPERATOR",
+            "name": "Production Operator",
+            "actor_type": "JOB_ROLE",
+            "description ": "Operates production equipment, loads raw materials, moves work in progress, monitors process conditions, records output, performs basic quality checks, and maintains workplace safety and housekeeping. "
+        },
+        {
+            "code": "PRODUCTION_PLANNER",
+            "name": "Production Planner",
+            "actor_type": "JOB_ROLE",
+            "description ": "Plans production demand, capacity, resources, timing, and dependencies; monitors adherence; and adjusts plans when conditions change. "
+        },
+        {
+            "code": "PRODUCTION_SUPERVISOR",
+            "name": "Production Supervisor",
+            "actor_type": "JOB_ROLE",
+            "description ": "Directs shift activities, assigns operators, coordinates materials and equipment, monitors production targets, enforces safety and quality requirements, and escalates operational issues. "
+        },
+        {
+            "code": "PRODUCTION_TEAM",
+            "name": "Production Team",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant production team, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "PRODUCT_DESIGN_OWNER",
+            "name": "Product Design Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual product design owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "PRODUCT_ENGINEER",
+            "name": "Product Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves product solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "PRODUCT_MANAGER",
+            "name": "Product Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads product activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "PROJECT_CONTROL_ANALYST",
+            "name": "Project Control Analyst",
+            "actor_type": "JOB_ROLE",
+            "description ": "Collects and analyzes project control information, identifies trends and risks, prepares reports, and supports evidence-based decisions. "
+        },
+        {
+            "code": "PROJECT_ENGINEER",
+            "name": "Project Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves project solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "PROJECT_MANAGER",
+            "name": "Project Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads project activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "PROJECT_SPONSOR",
+            "name": "Project Sponsor",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the project sponsor function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "PROJECT_STAKEHOLDERS",
+            "name": "Project Stakeholders",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant project stakeholders, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "PROJECT_TEAM",
+            "name": "Project Team",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Carries out assigned cross-functional project work, contributes specialist input, manages dependencies, and delivers agreed project outputs. "
+        },
+        {
+            "code": "QUALITY_AUDITOR",
+            "name": "Quality Auditor",
+            "actor_type": "JOB_ROLE",
+            "description ": "Plans and performs quality audits, gathers evidence, documents findings, reports conclusions, and verifies corrective actions. "
+        },
+        {
+            "code": "QUALITY_ENGINEER",
+            "name": "Quality Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves quality solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "QUALITY_INSPECTOR",
+            "name": "Quality Inspector",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the quality inspector function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "QUALITY_MANAGER",
+            "name": "Quality Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads quality activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "RECEIVING_CLERK",
+            "name": "Receiving Clerk",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the receiving clerk function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "RECEIVING_INSPECTOR",
+            "name": "Receiving Inspector",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the receiving inspector function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "RECORDS_MANAGER",
+            "name": "Records Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads records activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "RELIABILITY_ENGINEER",
+            "name": "Reliability Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves reliability solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "RESOLUTION_OWNER",
+            "name": "Resolution Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual resolution owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "RETURNS_COORDINATOR",
+            "name": "Returns Coordinator",
+            "actor_type": "JOB_ROLE",
+            "description ": "Coordinates returns schedules, records, communications, resources, and follow-up actions to keep activities complete and timely. "
+        },
+        {
+            "code": "RISK_ANALYST",
+            "name": "Risk Analyst",
+            "actor_type": "JOB_ROLE",
+            "description ": "Collects and analyzes risk information, identifies trends and risks, prepares reports, and supports evidence-based decisions. "
+        },
+        {
+            "code": "RISK_COMMITTEE",
+            "name": "Risk Committee",
+            "actor_type": "ORG_TEAM",
+            "description ": "Provides collective governance for risk committee, reviews evidence and risks, records decisions, and monitors agreed actions. "
+        },
+        {
+            "code": "RISK_MANAGER",
+            "name": "Risk Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads risk activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "RISK_OWNER",
+            "name": "Risk Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual risk owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "SALES_AND_OPERATIONS_PLANNER",
+            "name": "Sales And Operations Planner",
+            "actor_type": "JOB_ROLE",
+            "description ": "Plans sales and operations demand, capacity, resources, timing, and dependencies; monitors adherence; and adjusts plans when conditions change. "
+        },
+        {
+            "code": "SALES_AND_OPERATIONS_TEAM",
+            "name": "Sales And Operations Team",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant sales and operations team, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "SALES_MANAGER",
+            "name": "Sales Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads sales activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "SALES_OPERATIONS_SPECIALIST",
+            "name": "Sales Operations Specialist",
+            "actor_type": "JOB_ROLE",
+            "description ": "Provides specialist support for sales operations, executes defined processes, maintains records, resolves issues, and recommends improvements. "
+        },
+        {
+            "code": "SALES_OPERATIONS_TEAM",
+            "name": "Sales Operations Team",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant sales operations team, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "SALES_REPRESENTATIVE",
+            "name": "Sales Representative",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the sales representative function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "SALES_TEAM",
+            "name": "Sales Team",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant sales team, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "SERVICE_DELIVERY_MANAGER",
+            "name": "Service Delivery Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads service delivery activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "SERVICE_DELIVERY_TEAM",
+            "name": "Service Delivery Team",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant service delivery team, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "SERVICE_DESIGNER",
+            "name": "Service Designer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the service designer function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "SERVICE_MANAGER",
+            "name": "Service Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads service activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "SHIPPING_COORDINATOR",
+            "name": "Shipping Coordinator",
+            "actor_type": "JOB_ROLE",
+            "description ": "Coordinates shipping schedules, records, communications, resources, and follow-up actions to keep activities complete and timely. "
+        },
+        {
+            "code": "SITE_MANAGER",
+            "name": "Site Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads site activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "SITE_OCCUPANTS",
+            "name": "Site Occupants",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant site occupants, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "SOLUTION_ARCHITECT",
+            "name": "Solution Architect",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the solution architect function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "SOURCING_SPECIALIST",
+            "name": "Sourcing Specialist",
+            "actor_type": "JOB_ROLE",
+            "description ": "Provides specialist support for sourcing, executes defined processes, maintains records, resolves issues, and recommends improvements. "
+        },
+        {
+            "code": "STRATEGY_ANALYST",
+            "name": "Strategy Analyst",
+            "actor_type": "JOB_ROLE",
+            "description ": "Collects and analyzes strategy information, identifies trends and risks, prepares reports, and supports evidence-based decisions. "
+        },
+        {
+            "code": "STRATEGY_MANAGER",
+            "name": "Strategy Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads strategy activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "SUBJECT_MATTER_EXPERT",
+            "name": "Subject Matter Expert",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the subject matter expert function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "SUCCESSION_OWNER",
+            "name": "Succession Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual succession owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "SUPPLIER_DEVELOPMENT_ENGINEER",
+            "name": "Supplier Development Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves supplier development solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "SUPPLIER_QUALITY_ENGINEER",
+            "name": "Supplier Quality Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves supplier quality solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "SUPPLY_CHAIN_MANAGER",
+            "name": "Supply Chain Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads supply chain activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "SUPPLY_CHAIN_PLANNER",
+            "name": "Supply Chain Planner",
+            "actor_type": "JOB_ROLE",
+            "description ": "Plans supply chain demand, capacity, resources, timing, and dependencies; monitors adherence; and adjusts plans when conditions change. "
+        },
+        {
+            "code": "SUPPORT_MANAGER",
+            "name": "Support Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads support activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "SUSTAINABILITY_ANALYST",
+            "name": "Sustainability Analyst",
+            "actor_type": "JOB_ROLE",
+            "description ": "Collects and analyzes sustainability information, identifies trends and risks, prepares reports, and supports evidence-based decisions. "
+        },
+        {
+            "code": "SUSTAINABILITY_MANAGER",
+            "name": "Sustainability Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads sustainability activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "SYSTEM_IMPLEMENTATION_MANAGER",
+            "name": "System Implementation Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads system implementation activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "SYSTEM_OWNER",
+            "name": "System Owner",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the system owner function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "SYSTEM_USERS",
+            "name": "System Users",
+            "actor_type": "STAKEHOLDER_GROUP",
+            "description ": "Represents the relevant system users, provides input on impacts and needs, completes applicable group actions, and receives required decisions and updates. "
+        },
+        {
+            "code": "TALENT_ACQUISITION_MANAGER",
+            "name": "Talent Acquisition Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads talent acquisition activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "TALENT_ACQUISITION_OWNER",
+            "name": "Talent Acquisition Owner",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual talent acquisition owner responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "TALENT_ACQUISITION_SPECIALIST",
+            "name": "Talent Acquisition Specialist",
+            "actor_type": "JOB_ROLE",
+            "description ": "Provides specialist support for talent acquisition, executes defined processes, maintains records, resolves issues, and recommends improvements. "
+        },
+        {
+            "code": "TALENT_REVIEW_BOARD",
+            "name": "Talent Review Board",
+            "actor_type": "ORG_TEAM",
+            "description ": "Provides collective governance for talent review board, reviews evidence and risks, records decisions, and monitors agreed actions. "
+        },
+        {
+            "code": "TEST_ENGINEER",
+            "name": "Test Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves test solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "TOOLING_ENGINEER",
+            "name": "Tooling Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves tooling solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "TOOLING_MANAGER",
+            "name": "Tooling Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads tooling activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "TOOLMAKER",
+            "name": "Toolmaker",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the toolmaker function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "TOOL_CUSTODIAN",
+            "name": "Tool Custodian",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the tool custodian function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "TOOL_USER",
+            "name": "Tool User",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Performs the contextual tool user responsibility for the applicable record or workflow instance, provides required input, completes assigned actions, and supports traceability. "
+        },
+        {
+            "code": "TRAINER",
+            "name": "Trainer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Performs the trainer function, completes assigned lifecycle responsibilities, maintains required records and controls, coordinates relevant stakeholders, and escalates exceptions. "
+        },
+        {
+            "code": "TRAINING_COORDINATOR",
+            "name": "Training Coordinator",
+            "actor_type": "JOB_ROLE",
+            "description ": "Coordinates training schedules, records, communications, resources, and follow-up actions to keep activities complete and timely. "
+        },
+        {
+            "code": "VALIDATION_ENGINEER",
+            "name": "Validation Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves validation solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "VENDOR_MANAGER",
+            "name": "Vendor Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads vendor activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "VENDOR_PERFORMANCE_ANALYST",
+            "name": "Vendor Performance Analyst",
+            "actor_type": "JOB_ROLE",
+            "description ": "Collects and analyzes vendor performance information, identifies trends and risks, prepares reports, and supports evidence-based decisions. "
+        },
+        {
+            "code": "VERIFICATION_ENGINEER",
+            "name": "Verification Engineer",
+            "actor_type": "JOB_ROLE",
+            "description ": "Designs, analyzes, implements, troubleshoots, and improves verification solutions while maintaining technical, safety, quality, and documentation requirements. "
+        },
+        {
+            "code": "WAREHOUSE_SUPERVISOR",
+            "name": "Warehouse Supervisor",
+            "actor_type": "JOB_ROLE",
+            "description ": "Supervises day-to-day warehouse work, assigns resources, verifies execution, enforces requirements, and escalates exceptions. "
+        },
+        {
+            "code": "WASTE_COORDINATOR",
+            "name": "Waste Coordinator",
+            "actor_type": "JOB_ROLE",
+            "description ": "Coordinates waste schedules, records, communications, resources, and follow-up actions to keep activities complete and timely. "
+        },
+        {
+            "code": "WORKFORCE_MANAGER",
+            "name": "Workforce Manager",
+            "actor_type": "JOB_ROLE",
+            "description ": "Leads workforce activities, allocates resources, monitors performance and risk, approves key decisions, and ensures required outcomes are achieved. "
+        },
+        {
+            "code": "WORKFORCE_PLANNER",
+            "name": "Workforce Planner",
+            "actor_type": "JOB_ROLE",
+            "description ": "Plans workforce demand, capacity, resources, timing, and dependencies; monitors adherence; and adjusts plans when conditions change. "
+        },
+        {
+            "code": "WORK_ORDER_PLANNER",
+            "name": "Work Order Planner",
+            "actor_type": "JOB_ROLE",
+            "description ": "Plans work order demand, capacity, resources, timing, and dependencies; monitors adherence; and adjusts plans when conditions change. "
+        },
+        {
+            "code": "WORK_REQUESTER",
+            "name": "Work Requester",
+            "actor_type": "CONTEXT_ACTOR",
+            "description ": "Identifies a required service or maintenance need, submits the request with sufficient details, clarifies requirements, and confirms the requested outcome. "
+        },
+        {
+            "code": "WORK_SUPERVISOR",
+            "name": "Work Supervisor",
+            "actor_type": "JOB_ROLE",
+            "description ": "Supervises day-to-day work work, assigns resources, verifies execution, enforces requirements, and escalates exceptions. "
+        }
+    ],
+    "lifecycles": [
+        {
+            "name": "Workforce Lifecycle",
+            "primary_model": "WorkforceAssignment",
+            "phase": "Plan",
+            "sequence": "1",
+            "responsible_role": "200",
+            "accountable_role": "199",
+            "consulted_role": "67",
+            "informed_role": "41",
+            "description ": "WorkforceAssignment is in the Plan phase of the Workforce Lifecycle. "
+        },
+        {
+            "name": "Workforce Lifecycle",
+            "primary_model": "WorkforceAssignment",
+            "phase": "Acquire",
+            "sequence": "2",
+            "responsible_role": "182",
+            "accountable_role": "199",
+            "consulted_role": "67",
+            "informed_role": "41",
+            "description ": "WorkforceAssignment is in the Acquire phase of the Workforce Lifecycle. "
+        },
+        {
+            "name": "Workforce Lifecycle",
+            "primary_model": "WorkforceAssignment",
+            "phase": "Develop",
+            "sequence": "3",
+            "responsible_role": "118",
+            "accountable_role": "199",
+            "consulted_role": "67",
+            "informed_role": "41",
+            "description ": "WorkforceAssignment is in the Develop phase of the Workforce Lifecycle. "
+        },
+        {
+            "name": "Workforce Lifecycle",
+            "primary_model": "WorkforceAssignment",
+            "phase": "Retain",
+            "sequence": "4",
+            "responsible_role": "88",
+            "accountable_role": "199",
+            "consulted_role": "67",
+            "informed_role": "41",
+            "description ": "WorkforceAssignment is in the Retain phase of the Workforce Lifecycle. "
+        },
+        {
+            "name": "Workforce Lifecycle",
+            "primary_model": "WorkforceAssignment",
+            "phase": "Transition",
+            "sequence": "5",
+            "responsible_role": "67",
+            "accountable_role": "199",
+            "consulted_role": "67",
+            "informed_role": "41",
+            "description ": "WorkforceAssignment is in the Transition phase of the Workforce Lifecycle. "
+        },
+        {
+            "name": "Employee Lifecycle",
+            "primary_model": "Employee",
+            "phase": "Recruit",
+            "sequence": "1",
+            "responsible_role": "182",
+            "accountable_role": "69",
+            "consulted_role": "67",
+            "informed_role": "51",
+            "description ": "Employee is in the Recruit phase of the Employee Lifecycle. "
+        },
+        {
+            "name": "Employee Lifecycle",
+            "primary_model": "Employee",
+            "phase": "Onboard",
+            "sequence": "2",
+            "responsible_role": "70",
+            "accountable_role": "69",
+            "consulted_role": "67",
+            "informed_role": "51",
+            "description ": "Employee is in the Onboard phase of the Employee Lifecycle. "
+        },
+        {
+            "name": "Employee Lifecycle",
+            "primary_model": "Employee",
+            "phase": "Develop",
+            "sequence": "3",
+            "responsible_role": "118",
+            "accountable_role": "69",
+            "consulted_role": "67",
+            "informed_role": "51",
+            "description ": "Employee is in the Develop phase of the Employee Lifecycle. "
+        },
+        {
+            "name": "Employee Lifecycle",
+            "primary_model": "Employee",
+            "phase": "Perform",
+            "sequence": "4",
+            "responsible_role": "88",
+            "accountable_role": "69",
+            "consulted_role": "67",
+            "informed_role": "51",
+            "description ": "Employee is in the Perform phase of the Employee Lifecycle. "
+        },
+        {
+            "name": "Employee Lifecycle",
+            "primary_model": "Employee",
+            "phase": "Separate",
+            "sequence": "5",
+            "responsible_role": "70",
+            "accountable_role": "69",
+            "consulted_role": "67",
+            "informed_role": "51",
+            "description ": "Employee is in the Separate phase of the Employee Lifecycle. "
+        },
+        {
+            "name": "Recruitment Lifecycle",
+            "primary_model": "ManpowerRequest",
+            "phase": "Source",
+            "sequence": "1",
+            "responsible_role": "182",
+            "accountable_role": "181",
+            "consulted_role": "66",
+            "informed_role": "70",
+            "description ": "ManpowerRequest is in the Source phase of the Recruitment Lifecycle. "
+        },
+        {
+            "name": "Recruitment Lifecycle",
+            "primary_model": "ManpowerRequest",
+            "phase": "Screen",
+            "sequence": "2",
+            "responsible_role": "183",
+            "accountable_role": "181",
+            "consulted_role": "66",
+            "informed_role": "70",
+            "description ": "ManpowerRequest is in the Screen phase of the Recruitment Lifecycle. "
+        },
+        {
+            "name": "Recruitment Lifecycle",
+            "primary_model": "ManpowerRequest",
+            "phase": "Select",
+            "sequence": "3",
+            "responsible_role": "66",
+            "accountable_role": "66",
+            "consulted_role": "66",
+            "informed_role": "70",
+            "description ": "ManpowerRequest is in the Select phase of the Recruitment Lifecycle. "
+        },
+        {
+            "name": "Recruitment Lifecycle",
+            "primary_model": "ManpowerRequest",
+            "phase": "Offer",
+            "sequence": "4",
+            "responsible_role": "69",
+            "accountable_role": "69",
+            "consulted_role": "66",
+            "informed_role": "70",
+            "description ": "ManpowerRequest is in the Offer phase of the Recruitment Lifecycle. "
+        },
+        {
+            "name": "Recruitment Lifecycle",
+            "primary_model": "ManpowerRequest",
+            "phase": "Hire",
+            "sequence": "5",
+            "responsible_role": "70",
+            "accountable_role": "181",
+            "consulted_role": "66",
+            "informed_role": "70",
+            "description ": "ManpowerRequest is in the Hire phase of the Recruitment Lifecycle. "
+        },
+        {
+            "name": "Onboarding Lifecycle",
+            "primary_model": "WorkforceAssignment",
+            "phase": "Prepare",
+            "sequence": "1",
+            "responsible_role": "70",
+            "accountable_role": "69",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "WorkforceAssignment is in the Prepare phase of the Onboarding Lifecycle. "
+        },
+        {
+            "name": "Onboarding Lifecycle",
+            "primary_model": "WorkforceAssignment",
+            "phase": "Orient",
+            "sequence": "2",
+            "responsible_role": "67",
+            "accountable_role": "69",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "WorkforceAssignment is in the Orient phase of the Onboarding Lifecycle. "
+        },
+        {
+            "name": "Onboarding Lifecycle",
+            "primary_model": "WorkforceAssignment",
+            "phase": "Train",
+            "sequence": "3",
+            "responsible_role": "192",
+            "accountable_role": "69",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "WorkforceAssignment is in the Train phase of the Onboarding Lifecycle. "
+        },
+        {
+            "name": "Onboarding Lifecycle",
+            "primary_model": "WorkforceAssignment",
+            "phase": "Integrate",
+            "sequence": "4",
+            "responsible_role": "88",
+            "accountable_role": "69",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "WorkforceAssignment is in the Integrate phase of the Onboarding Lifecycle. "
+        },
+        {
+            "name": "Onboarding Lifecycle",
+            "primary_model": "WorkforceAssignment",
+            "phase": "Confirm",
+            "sequence": "5",
+            "responsible_role": "69",
+            "accountable_role": "69",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "WorkforceAssignment is in the Confirm phase of the Onboarding Lifecycle. "
+        },
+        {
+            "name": "Training Lifecycle",
+            "primary_model": "CourseEnrollment",
+            "phase": "Identify",
+            "sequence": "1",
+            "responsible_role": "192",
+            "accountable_role": "86",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "CourseEnrollment is in the Identify phase of the Training Lifecycle. "
+        },
+        {
+            "name": "Training Lifecycle",
+            "primary_model": "CourseEnrollment",
+            "phase": "Enroll",
+            "sequence": "2",
+            "responsible_role": "192",
+            "accountable_role": "86",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "CourseEnrollment is in the Enroll phase of the Training Lifecycle. "
+        },
+        {
+            "name": "Training Lifecycle",
+            "primary_model": "CourseEnrollment",
+            "phase": "Train",
+            "sequence": "3",
+            "responsible_role": "191",
+            "accountable_role": "86",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "CourseEnrollment is in the Train phase of the Training Lifecycle. "
+        },
+        {
+            "name": "Training Lifecycle",
+            "primary_model": "CourseEnrollment",
+            "phase": "Assess",
+            "sequence": "4",
+            "responsible_role": "23",
+            "accountable_role": "86",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "CourseEnrollment is in the Assess phase of the Training Lifecycle. "
+        },
+        {
+            "name": "Training Lifecycle",
+            "primary_model": "CourseEnrollment",
+            "phase": "Complete",
+            "sequence": "5",
+            "responsible_role": "192",
+            "accountable_role": "86",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "CourseEnrollment is in the Complete phase of the Training Lifecycle. "
+        },
+        {
+            "name": "Certification Lifecycle",
+            "primary_model": "Certificate",
+            "phase": "Identify",
+            "sequence": "1",
+            "responsible_role": "26",
+            "accountable_role": "27",
+            "consulted_role": "169",
+            "informed_role": "51",
+            "description ": "Certificate is in the Identify phase of the Certification Lifecycle. "
+        },
+        {
+            "name": "Certification Lifecycle",
+            "primary_model": "Certificate",
+            "phase": "Train",
+            "sequence": "2",
+            "responsible_role": "191",
+            "accountable_role": "27",
+            "consulted_role": "169",
+            "informed_role": "51",
+            "description ": "Certificate is in the Train phase of the Certification Lifecycle. "
+        },
+        {
+            "name": "Certification Lifecycle",
+            "primary_model": "Certificate",
+            "phase": "Evaluate",
+            "sequence": "3",
+            "responsible_role": "18",
+            "accountable_role": "27",
+            "consulted_role": "169",
+            "informed_role": "51",
+            "description ": "Certificate is in the Evaluate phase of the Certification Lifecycle. "
+        },
+        {
+            "name": "Certification Lifecycle",
+            "primary_model": "Certificate",
+            "phase": "Certify",
+            "sequence": "4",
+            "responsible_role": "19",
+            "accountable_role": "27",
+            "consulted_role": "169",
+            "informed_role": "51",
+            "description ": "Certificate is in the Certify phase of the Certification Lifecycle. "
+        },
+        {
+            "name": "Certification Lifecycle",
+            "primary_model": "Certificate",
+            "phase": "Renew",
+            "sequence": "5",
+            "responsible_role": "26",
+            "accountable_role": "27",
+            "consulted_role": "169",
+            "informed_role": "51",
+            "description ": "Certificate is in the Renew phase of the Certification Lifecycle. "
+        },
+        {
+            "name": "Performance Lifecycle",
+            "primary_model": "PerformanceReview",
+            "phase": "Plan",
+            "sequence": "1",
+            "responsible_role": "88",
+            "accountable_role": "88",
+            "consulted_role": "67",
+            "informed_role": "51",
+            "description ": "PerformanceReview is in the Plan phase of the Performance Lifecycle. "
+        },
+        {
+            "name": "Performance Lifecycle",
+            "primary_model": "PerformanceReview",
+            "phase": "Execute",
+            "sequence": "2",
+            "responsible_role": "51",
+            "accountable_role": "88",
+            "consulted_role": "67",
+            "informed_role": "51",
+            "description ": "PerformanceReview is in the Execute phase of the Performance Lifecycle. "
+        },
+        {
+            "name": "Performance Lifecycle",
+            "primary_model": "PerformanceReview",
+            "phase": "Review",
+            "sequence": "3",
+            "responsible_role": "88",
+            "accountable_role": "88",
+            "consulted_role": "67",
+            "informed_role": "51",
+            "description ": "PerformanceReview is in the Review phase of the Performance Lifecycle. "
+        },
+        {
+            "name": "Performance Lifecycle",
+            "primary_model": "PerformanceReview",
+            "phase": "Feedback",
+            "sequence": "4",
+            "responsible_role": "88",
+            "accountable_role": "88",
+            "consulted_role": "67",
+            "informed_role": "51",
+            "description ": "PerformanceReview is in the Feedback phase of the Performance Lifecycle. "
+        },
+        {
+            "name": "Performance Lifecycle",
+            "primary_model": "PerformanceReview",
+            "phase": "Improve",
+            "sequence": "5",
+            "responsible_role": "118",
+            "accountable_role": "88",
+            "consulted_role": "67",
+            "informed_role": "51",
+            "description ": "PerformanceReview is in the Improve phase of the Performance Lifecycle. "
+        },
+        {
+            "name": "Career Development Lifecycle",
+            "primary_model": "CareerPlan",
+            "phase": "Assess",
+            "sequence": "1",
+            "responsible_role": "17",
+            "accountable_role": "117",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "CareerPlan is in the Assess phase of the Career Development Lifecycle. "
+        },
+        {
+            "name": "Career Development Lifecycle",
+            "primary_model": "CareerPlan",
+            "phase": "Plan",
+            "sequence": "2",
+            "responsible_role": "51",
+            "accountable_role": "117",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "CareerPlan is in the Plan phase of the Career Development Lifecycle. "
+        },
+        {
+            "name": "Career Development Lifecycle",
+            "primary_model": "CareerPlan",
+            "phase": "Develop",
+            "sequence": "3",
+            "responsible_role": "51",
+            "accountable_role": "117",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "CareerPlan is in the Develop phase of the Career Development Lifecycle. "
+        },
+        {
+            "name": "Career Development Lifecycle",
+            "primary_model": "CareerPlan",
+            "phase": "Mentor",
+            "sequence": "4",
+            "responsible_role": "105",
+            "accountable_role": "117",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "CareerPlan is in the Mentor phase of the Career Development Lifecycle. "
+        },
+        {
+            "name": "Career Development Lifecycle",
+            "primary_model": "CareerPlan",
+            "phase": "Advance",
+            "sequence": "5",
+            "responsible_role": "88",
+            "accountable_role": "117",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "CareerPlan is in the Advance phase of the Career Development Lifecycle. "
+        },
+        {
+            "name": "Succession Lifecycle",
+            "primary_model": "SuccessionPlan",
+            "phase": "Identify",
+            "sequence": "1",
+            "responsible_role": "69",
+            "accountable_role": "68",
+            "consulted_role": "59",
+            "informed_role": "107",
+            "description ": "SuccessionPlan is in the Identify phase of the Succession Lifecycle. "
+        },
+        {
+            "name": "Succession Lifecycle",
+            "primary_model": "SuccessionPlan",
+            "phase": "Assess",
+            "sequence": "2",
+            "responsible_role": "184",
+            "accountable_role": "68",
+            "consulted_role": "59",
+            "informed_role": "107",
+            "description ": "SuccessionPlan is in the Assess phase of the Succession Lifecycle. "
+        },
+        {
+            "name": "Succession Lifecycle",
+            "primary_model": "SuccessionPlan",
+            "phase": "Develop",
+            "sequence": "3",
+            "responsible_role": "118",
+            "accountable_role": "68",
+            "consulted_role": "59",
+            "informed_role": "107",
+            "description ": "SuccessionPlan is in the Develop phase of the Succession Lifecycle. "
+        },
+        {
+            "name": "Succession Lifecycle",
+            "primary_model": "SuccessionPlan",
+            "phase": "Nominate",
+            "sequence": "4",
+            "responsible_role": "60",
+            "accountable_role": "68",
+            "consulted_role": "59",
+            "informed_role": "107",
+            "description ": "SuccessionPlan is in the Nominate phase of the Succession Lifecycle. "
+        },
+        {
+            "name": "Succession Lifecycle",
+            "primary_model": "SuccessionPlan",
+            "phase": "Transition",
+            "sequence": "5",
+            "responsible_role": "170",
+            "accountable_role": "68",
+            "consulted_role": "59",
+            "informed_role": "107",
+            "description ": "SuccessionPlan is in the Transition phase of the Succession Lifecycle. "
+        },
+        {
+            "name": "Offboarding Lifecycle",
+            "primary_model": "SeparationRequest",
+            "phase": "Notify",
+            "sequence": "1",
+            "responsible_role": "70",
+            "accountable_role": "69",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "SeparationRequest is in the Notify phase of the Offboarding Lifecycle. "
+        },
+        {
+            "name": "Offboarding Lifecycle",
+            "primary_model": "SeparationRequest",
+            "phase": "Transfer",
+            "sequence": "2",
+            "responsible_role": "88",
+            "accountable_role": "69",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "SeparationRequest is in the Transfer phase of the Offboarding Lifecycle. "
+        },
+        {
+            "name": "Offboarding Lifecycle",
+            "primary_model": "SeparationRequest",
+            "phase": "Recover",
+            "sequence": "3",
+            "responsible_role": "5",
+            "accountable_role": "69",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "SeparationRequest is in the Recover phase of the Offboarding Lifecycle. "
+        },
+        {
+            "name": "Offboarding Lifecycle",
+            "primary_model": "SeparationRequest",
+            "phase": "Exit",
+            "sequence": "4",
+            "responsible_role": "70",
+            "accountable_role": "69",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "SeparationRequest is in the Exit phase of the Offboarding Lifecycle. "
+        },
+        {
+            "name": "Offboarding Lifecycle",
+            "primary_model": "SeparationRequest",
+            "phase": "Archive",
+            "sequence": "5",
+            "responsible_role": "143",
+            "accountable_role": "69",
+            "consulted_role": "88",
+            "informed_role": "51",
+            "description ": "SeparationRequest is in the Archive phase of the Offboarding Lifecycle. "
+        },
+        {
+            "name": "Strategy Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Vision",
+            "sequence": "1",
+            "responsible_role": "60",
+            "accountable_role": "60",
+            "consulted_role": "59",
+            "informed_role": "113",
+            "description ": "WorkflowInstance is in the Vision phase of the Strategy Lifecycle. "
+        },
+        {
+            "name": "Strategy Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Plan",
+            "sequence": "2",
+            "responsible_role": "168",
+            "accountable_role": "60",
+            "consulted_role": "59",
+            "informed_role": "113",
+            "description ": "WorkflowInstance is in the Plan phase of the Strategy Lifecycle. "
+        },
+        {
+            "name": "Strategy Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Execute",
+            "sequence": "3",
+            "responsible_role": "76",
+            "accountable_role": "60",
+            "consulted_role": "59",
+            "informed_role": "113",
+            "description ": "WorkflowInstance is in the Execute phase of the Strategy Lifecycle. "
+        },
+        {
+            "name": "Strategy Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Monitor",
+            "sequence": "4",
+            "responsible_role": "167",
+            "accountable_role": "60",
+            "consulted_role": "59",
+            "informed_role": "113",
+            "description ": "WorkflowInstance is in the Monitor phase of the Strategy Lifecycle. "
+        },
+        {
+            "name": "Strategy Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Renew",
+            "sequence": "5",
+            "responsible_role": "60",
+            "accountable_role": "60",
+            "consulted_role": "59",
+            "informed_role": "113",
+            "description ": "WorkflowInstance is in the Renew phase of the Strategy Lifecycle. "
+        },
+        {
+            "name": "Project Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Initiate",
+            "sequence": "1",
+            "responsible_role": "134",
+            "accountable_role": "134",
+            "consulted_role": "136",
+            "informed_role": "135",
+            "description ": "WorkflowInstance is in the Initiate phase of the Project Lifecycle. "
+        },
+        {
+            "name": "Project Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Plan",
+            "sequence": "2",
+            "responsible_role": "133",
+            "accountable_role": "133",
+            "consulted_role": "136",
+            "informed_role": "135",
+            "description ": "WorkflowInstance is in the Plan phase of the Project Lifecycle. "
+        },
+        {
+            "name": "Project Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Execute",
+            "sequence": "3",
+            "responsible_role": "133",
+            "accountable_role": "133",
+            "consulted_role": "136",
+            "informed_role": "135",
+            "description ": "WorkflowInstance is in the Execute phase of the Project Lifecycle. "
+        },
+        {
+            "name": "Project Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Monitor",
+            "sequence": "4",
+            "responsible_role": "131",
+            "accountable_role": "133",
+            "consulted_role": "136",
+            "informed_role": "135",
+            "description ": "WorkflowInstance is in the Monitor phase of the Project Lifecycle. "
+        },
+        {
+            "name": "Project Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Close",
+            "sequence": "5",
+            "responsible_role": "134",
+            "accountable_role": "134",
+            "consulted_role": "136",
+            "informed_role": "135",
+            "description ": "WorkflowInstance is in the Close phase of the Project Lifecycle. "
+        },
+        {
+            "name": "Risk Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Identify",
+            "sequence": "1",
+            "responsible_role": "150",
+            "accountable_role": "149",
+            "consulted_role": "33",
+            "informed_role": "60",
+            "description ": "WorkflowInstance is in the Identify phase of the Risk Lifecycle. "
+        },
+        {
+            "name": "Risk Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Assess",
+            "sequence": "2",
+            "responsible_role": "147",
+            "accountable_role": "149",
+            "consulted_role": "33",
+            "informed_role": "60",
+            "description ": "WorkflowInstance is in the Assess phase of the Risk Lifecycle. "
+        },
+        {
+            "name": "Risk Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Mitigate",
+            "sequence": "3",
+            "responsible_role": "33",
+            "accountable_role": "149",
+            "consulted_role": "33",
+            "informed_role": "60",
+            "description ": "WorkflowInstance is in the Mitigate phase of the Risk Lifecycle. "
+        },
+        {
+            "name": "Risk Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Monitor",
+            "sequence": "4",
+            "responsible_role": "149",
+            "accountable_role": "149",
+            "consulted_role": "33",
+            "informed_role": "60",
+            "description ": "WorkflowInstance is in the Monitor phase of the Risk Lifecycle. "
+        },
+        {
+            "name": "Risk Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Review",
+            "sequence": "5",
+            "responsible_role": "148",
+            "accountable_role": "149",
+            "consulted_role": "33",
+            "informed_role": "60",
+            "description ": "WorkflowInstance is in the Review phase of the Risk Lifecycle. "
+        },
+        {
+            "name": "Compliance Lifecycle",
+            "primary_model": "Document",
+            "phase": "Identify",
+            "sequence": "1",
+            "responsible_role": "28",
+            "accountable_role": "27",
+            "consulted_role": "87",
+            "informed_role": "59",
+            "description ": "Document is in the Identify phase of the Compliance Lifecycle. "
+        },
+        {
+            "name": "Compliance Lifecycle",
+            "primary_model": "Document",
+            "phase": "Implement",
+            "sequence": "2",
+            "responsible_role": "33",
+            "accountable_role": "27",
+            "consulted_role": "87",
+            "informed_role": "59",
+            "description ": "Document is in the Implement phase of the Compliance Lifecycle. "
+        },
+        {
+            "name": "Compliance Lifecycle",
+            "primary_model": "Document",
+            "phase": "Monitor",
+            "sequence": "3",
+            "responsible_role": "24",
+            "accountable_role": "27",
+            "consulted_role": "87",
+            "informed_role": "59",
+            "description ": "Document is in the Monitor phase of the Compliance Lifecycle. "
+        },
+        {
+            "name": "Compliance Lifecycle",
+            "primary_model": "Document",
+            "phase": "Audit",
+            "sequence": "4",
+            "responsible_role": "25",
+            "accountable_role": "27",
+            "consulted_role": "87",
+            "informed_role": "59",
+            "description ": "Document is in the Audit phase of the Compliance Lifecycle. "
+        },
+        {
+            "name": "Compliance Lifecycle",
+            "primary_model": "Document",
+            "phase": "Remediate",
+            "sequence": "5",
+            "responsible_role": "120",
+            "accountable_role": "27",
+            "consulted_role": "87",
+            "informed_role": "59",
+            "description ": "Document is in the Remediate phase of the Compliance Lifecycle. "
+        },
+        {
+            "name": "Audit Lifecycle",
+            "primary_model": "AuditLog",
+            "phase": "Plan",
+            "sequence": "1",
+            "responsible_role": "85",
+            "accountable_role": "11",
+            "consulted_role": "120",
+            "informed_role": "10",
+            "description ": "AuditLog is in the Plan phase of the Audit Lifecycle. "
+        },
+        {
+            "name": "Audit Lifecycle",
+            "primary_model": "AuditLog",
+            "phase": "Prepare",
+            "sequence": "2",
+            "responsible_role": "85",
+            "accountable_role": "11",
+            "consulted_role": "120",
+            "informed_role": "10",
+            "description ": "AuditLog is in the Prepare phase of the Audit Lifecycle. "
+        },
+        {
+            "name": "Audit Lifecycle",
+            "primary_model": "AuditLog",
+            "phase": "Audit",
+            "sequence": "3",
+            "responsible_role": "9",
+            "accountable_role": "11",
+            "consulted_role": "120",
+            "informed_role": "10",
+            "description ": "AuditLog is in the Audit phase of the Audit Lifecycle. "
+        },
+        {
+            "name": "Audit Lifecycle",
+            "primary_model": "AuditLog",
+            "phase": "Report",
+            "sequence": "4",
+            "responsible_role": "85",
+            "accountable_role": "11",
+            "consulted_role": "120",
+            "informed_role": "10",
+            "description ": "AuditLog is in the Report phase of the Audit Lifecycle. "
+        },
+        {
+            "name": "Audit Lifecycle",
+            "primary_model": "AuditLog",
+            "phase": "Verify",
+            "sequence": "5",
+            "responsible_role": "11",
+            "accountable_role": "11",
+            "consulted_role": "120",
+            "informed_role": "10",
+            "description ": "AuditLog is in the Verify phase of the Audit Lifecycle. "
+        },
+        {
+            "name": "Continuous Improvement Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Identify",
+            "sequence": "1",
+            "responsible_role": "124",
+            "accountable_role": "120",
+            "consulted_role": "138",
+            "informed_role": "3",
+            "description ": "WorkflowInstance is in the Identify phase of the Continuous Improvement Lifecycle. "
+        },
+        {
+            "name": "Continuous Improvement Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Analyze",
+            "sequence": "2",
+            "responsible_role": "29",
+            "accountable_role": "120",
+            "consulted_role": "138",
+            "informed_role": "3",
+            "description ": "WorkflowInstance is in the Analyze phase of the Continuous Improvement Lifecycle. "
+        },
+        {
+            "name": "Continuous Improvement Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Improve",
+            "sequence": "3",
+            "responsible_role": "29",
+            "accountable_role": "120",
+            "consulted_role": "138",
+            "informed_role": "3",
+            "description ": "WorkflowInstance is in the Improve phase of the Continuous Improvement Lifecycle. "
+        },
+        {
+            "name": "Continuous Improvement Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Control",
+            "sequence": "4",
+            "responsible_role": "120",
+            "accountable_role": "120",
+            "consulted_role": "138",
+            "informed_role": "3",
+            "description ": "WorkflowInstance is in the Control phase of the Continuous Improvement Lifecycle. "
+        },
+        {
+            "name": "Continuous Improvement Lifecycle",
+            "primary_model": "WorkflowInstance",
+            "phase": "Sustain",
+            "sequence": "5",
+            "responsible_role": "120",
+            "accountable_role": "120",
+            "consulted_role": "138",
+            "informed_role": "3",
+            "description ": "WorkflowInstance is in the Sustain phase of the Continuous Improvement Lifecycle. "
+        },
+        {
+            "name": "Product Lifecycle",
+            "primary_model": "Product",
+            "phase": "Ideate",
+            "sequence": "1",
+            "responsible_role": "130",
+            "accountable_role": "130",
+            "consulted_role": "52",
+            "informed_role": "152",
+            "description ": "Product is in the Ideate phase of the Product Lifecycle. "
+        },
+        {
+            "name": "Product Lifecycle",
+            "primary_model": "Product",
+            "phase": "Design",
+            "sequence": "2",
+            "responsible_role": "128",
+            "accountable_role": "130",
+            "consulted_role": "52",
+            "informed_role": "152",
+            "description ": "Product is in the Design phase of the Product Lifecycle. "
+        },
+        {
+            "name": "Product Lifecycle",
+            "primary_model": "Product",
+            "phase": "Develop",
+            "sequence": "3",
+            "responsible_role": "129",
+            "accountable_role": "130",
+            "consulted_role": "52",
+            "informed_role": "152",
+            "description ": "Product is in the Develop phase of the Product Lifecycle. "
+        },
+        {
+            "name": "Product Lifecycle",
+            "primary_model": "Product",
+            "phase": "Launch",
+            "sequence": "4",
+            "responsible_role": "130",
+            "accountable_role": "130",
+            "consulted_role": "52",
+            "informed_role": "152",
+            "description ": "Product is in the Launch phase of the Product Lifecycle. "
+        },
+        {
+            "name": "Product Lifecycle",
+            "primary_model": "Product",
+            "phase": "Retire",
+            "sequence": "5",
+            "responsible_role": "130",
+            "accountable_role": "130",
+            "consulted_role": "52",
+            "informed_role": "152",
+            "description ": "Product is in the Retire phase of the Product Lifecycle. "
+        },
+        {
+            "name": "New Product Introduction Lifecycle",
+            "primary_model": "Product",
+            "phase": "Concept",
+            "sequence": "1",
+            "responsible_role": "108",
+            "accountable_role": "108",
+            "consulted_role": "34",
+            "informed_role": "110",
+            "description ": "Product is in the Concept phase of the New Product Introduction Lifecycle. "
+        },
+        {
+            "name": "New Product Introduction Lifecycle",
+            "primary_model": "Product",
+            "phase": "Prototype",
+            "sequence": "2",
+            "responsible_role": "129",
+            "accountable_role": "108",
+            "consulted_role": "34",
+            "informed_role": "110",
+            "description ": "Product is in the Prototype phase of the New Product Introduction Lifecycle. "
+        },
+        {
+            "name": "New Product Introduction Lifecycle",
+            "primary_model": "Product",
+            "phase": "Qualify",
+            "sequence": "3",
+            "responsible_role": "138",
+            "accountable_role": "108",
+            "consulted_role": "34",
+            "informed_role": "110",
+            "description ": "Product is in the Qualify phase of the New Product Introduction Lifecycle. "
+        },
+        {
+            "name": "New Product Introduction Lifecycle",
+            "primary_model": "Product",
+            "phase": "Pilot",
+            "sequence": "4",
+            "responsible_role": "97",
+            "accountable_role": "108",
+            "consulted_role": "34",
+            "informed_role": "110",
+            "description ": "Product is in the Pilot phase of the New Product Introduction Lifecycle. "
+        },
+        {
+            "name": "New Product Introduction Lifecycle",
+            "primary_model": "Product",
+            "phase": "Release",
+            "sequence": "5",
+            "responsible_role": "108",
+            "accountable_role": "108",
+            "consulted_role": "34",
+            "informed_role": "110",
+            "description ": "Product is in the Release phase of the New Product Introduction Lifecycle. "
+        },
+        {
+            "name": "Product Design Lifecycle",
+            "primary_model": "Product",
+            "phase": "Requirements",
+            "sequence": "1",
+            "responsible_role": "130",
+            "accountable_role": "52",
+            "consulted_role": "138",
+            "informed_role": "109",
+            "description ": "Product is in the Requirements phase of the Product Design Lifecycle. "
+        },
+        {
+            "name": "Product Design Lifecycle",
+            "primary_model": "Product",
+            "phase": "Design",
+            "sequence": "2",
+            "responsible_role": "42",
+            "accountable_role": "52",
+            "consulted_role": "138",
+            "informed_role": "109",
+            "description ": "Product is in the Design phase of the Product Design Lifecycle. "
+        },
+        {
+            "name": "Product Design Lifecycle",
+            "primary_model": "Product",
+            "phase": "Review",
+            "sequence": "3",
+            "responsible_role": "43",
+            "accountable_role": "52",
+            "consulted_role": "138",
+            "informed_role": "109",
+            "description ": "Product is in the Review phase of the Product Design Lifecycle. "
+        },
+        {
+            "name": "Product Design Lifecycle",
+            "primary_model": "Product",
+            "phase": "Verify",
+            "sequence": "4",
+            "responsible_role": "196",
+            "accountable_role": "52",
+            "consulted_role": "138",
+            "informed_role": "109",
+            "description ": "Product is in the Verify phase of the Product Design Lifecycle. "
+        },
+        {
+            "name": "Product Design Lifecycle",
+            "primary_model": "Product",
+            "phase": "Approve",
+            "sequence": "5",
+            "responsible_role": "52",
+            "accountable_role": "52",
+            "consulted_role": "138",
+            "informed_role": "109",
+            "description ": "Product is in the Approve phase of the Product Design Lifecycle. "
+        },
+        {
+            "name": "Product Qualification Lifecycle",
+            "primary_model": "ProductQualification",
+            "phase": "Plan",
+            "sequence": "1",
+            "responsible_role": "138",
+            "accountable_role": "140",
+            "consulted_role": "129",
+            "informed_role": "109",
+            "description ": "ProductQualification is in the Plan phase of the Product Qualification Lifecycle. "
+        },
+        {
+            "name": "Product Qualification Lifecycle",
+            "primary_model": "ProductQualification",
+            "phase": "Test",
+            "sequence": "2",
+            "responsible_role": "185",
+            "accountable_role": "140",
+            "consulted_role": "129",
+            "informed_role": "109",
+            "description ": "ProductQualification is in the Test phase of the Product Qualification Lifecycle. "
+        },
+        {
+            "name": "Product Qualification Lifecycle",
+            "primary_model": "ProductQualification",
+            "phase": "Validate",
+            "sequence": "3",
+            "responsible_role": "193",
+            "accountable_role": "140",
+            "consulted_role": "129",
+            "informed_role": "109",
+            "description ": "ProductQualification is in the Validate phase of the Product Qualification Lifecycle. "
+        },
+        {
+            "name": "Product Qualification Lifecycle",
+            "primary_model": "ProductQualification",
+            "phase": "Approve",
+            "sequence": "4",
+            "responsible_role": "140",
+            "accountable_role": "140",
+            "consulted_role": "129",
+            "informed_role": "109",
+            "description ": "ProductQualification is in the Approve phase of the Product Qualification Lifecycle. "
+        },
+        {
+            "name": "Product Qualification Lifecycle",
+            "primary_model": "ProductQualification",
+            "phase": "Release",
+            "sequence": "5",
+            "responsible_role": "108",
+            "accountable_role": "140",
+            "consulted_role": "129",
+            "informed_role": "109",
+            "description ": "ProductQualification is in the Release phase of the Product Qualification Lifecycle. "
+        },
+        {
+            "name": "Market Lifecycle",
+            "primary_model": "Product",
+            "phase": "Research",
+            "sequence": "1",
+            "responsible_role": "101",
+            "accountable_role": "100",
+            "consulted_role": "130",
+            "informed_role": "157",
+            "description ": "Product is in the Research phase of the Market Lifecycle. "
+        },
+        {
+            "name": "Market Lifecycle",
+            "primary_model": "Product",
+            "phase": "Launch",
+            "sequence": "2",
+            "responsible_role": "100",
+            "accountable_role": "100",
+            "consulted_role": "130",
+            "informed_role": "157",
+            "description ": "Product is in the Launch phase of the Market Lifecycle. "
+        },
+        {
+            "name": "Market Lifecycle",
+            "primary_model": "Product",
+            "phase": "Grow",
+            "sequence": "3",
+            "responsible_role": "153",
+            "accountable_role": "100",
+            "consulted_role": "130",
+            "informed_role": "157",
+            "description ": "Product is in the Grow phase of the Market Lifecycle. "
+        },
+        {
+            "name": "Market Lifecycle",
+            "primary_model": "Product",
+            "phase": "Mature",
+            "sequence": "4",
+            "responsible_role": "13",
+            "accountable_role": "100",
+            "consulted_role": "130",
+            "informed_role": "157",
+            "description ": "Product is in the Mature phase of the Market Lifecycle. "
+        },
+        {
+            "name": "Market Lifecycle",
+            "primary_model": "Product",
+            "phase": "Retire",
+            "sequence": "5",
+            "responsible_role": "130",
+            "accountable_role": "100",
+            "consulted_role": "130",
+            "informed_role": "157",
+            "description ": "Product is in the Retire phase of the Market Lifecycle. "
+        },
+        {
+            "name": "Service Lifecycle",
+            "primary_model": "Service",
+            "phase": "Design",
+            "sequence": "1",
+            "responsible_role": "160",
+            "accountable_role": "161",
+            "consulted_role": "37",
+            "informed_role": "36",
+            "description ": "Service is in the Design phase of the Service Lifecycle. "
+        },
+        {
+            "name": "Service Lifecycle",
+            "primary_model": "Service",
+            "phase": "Launch",
+            "sequence": "2",
+            "responsible_role": "161",
+            "accountable_role": "161",
+            "consulted_role": "37",
+            "informed_role": "36",
+            "description ": "Service is in the Launch phase of the Service Lifecycle. "
+        },
+        {
+            "name": "Service Lifecycle",
+            "primary_model": "Service",
+            "phase": "Deliver",
+            "sequence": "3",
+            "responsible_role": "158",
+            "accountable_role": "161",
+            "consulted_role": "37",
+            "informed_role": "36",
+            "description ": "Service is in the Deliver phase of the Service Lifecycle. "
+        },
+        {
+            "name": "Service Lifecycle",
+            "primary_model": "Service",
+            "phase": "Support",
+            "sequence": "4",
+            "responsible_role": "175",
+            "accountable_role": "161",
+            "consulted_role": "37",
+            "informed_role": "36",
+            "description ": "Service is in the Support phase of the Service Lifecycle. "
+        },
+        {
+            "name": "Service Lifecycle",
+            "primary_model": "Service",
+            "phase": "Retire",
+            "sequence": "5",
+            "responsible_role": "161",
+            "accountable_role": "161",
+            "consulted_role": "37",
+            "informed_role": "36",
+            "description ": "Service is in the Retire phase of the Service Lifecycle. "
+        },
+        {
+            "name": "Demand Lifecycle",
+            "primary_model": "DemandForecast",
+            "phase": "Forecast",
+            "sequence": "1",
+            "responsible_role": "40",
+            "accountable_role": "173",
+            "consulted_role": "153",
+            "informed_role": "125",
+            "description ": "DemandForecast is in the Forecast phase of the Demand Lifecycle. "
+        },
+        {
+            "name": "Demand Lifecycle",
+            "primary_model": "DemandForecast",
+            "phase": "Review",
+            "sequence": "2",
+            "responsible_role": "151",
+            "accountable_role": "173",
+            "consulted_role": "153",
+            "informed_role": "125",
+            "description ": "DemandForecast is in the Review phase of the Demand Lifecycle. "
+        },
+        {
+            "name": "Demand Lifecycle",
+            "primary_model": "DemandForecast",
+            "phase": "Commit",
+            "sequence": "3",
+            "responsible_role": "173",
+            "accountable_role": "173",
+            "consulted_role": "153",
+            "informed_role": "125",
+            "description ": "DemandForecast is in the Commit phase of the Demand Lifecycle. "
+        },
+        {
+            "name": "Demand Lifecycle",
+            "primary_model": "DemandForecast",
+            "phase": "Monitor",
+            "sequence": "4",
+            "responsible_role": "39",
+            "accountable_role": "173",
+            "consulted_role": "153",
+            "informed_role": "125",
+            "description ": "DemandForecast is in the Monitor phase of the Demand Lifecycle. "
+        },
+        {
+            "name": "Demand Lifecycle",
+            "primary_model": "DemandForecast",
+            "phase": "Adjust",
+            "sequence": "5",
+            "responsible_role": "40",
+            "accountable_role": "173",
+            "consulted_role": "153",
+            "informed_role": "125",
+            "description ": "DemandForecast is in the Adjust phase of the Demand Lifecycle. "
+        },
+        {
+            "name": "Sales Lifecycle",
+            "primary_model": "SalesOrder",
+            "phase": "Lead",
+            "sequence": "1",
+            "responsible_role": "156",
+            "accountable_role": "153",
+            "consulted_role": "130",
+            "informed_role": "155",
+            "description ": "SalesOrder is in the Lead phase of the Sales Lifecycle. "
+        },
+        {
+            "name": "Sales Lifecycle",
+            "primary_model": "SalesOrder",
+            "phase": "Qualify",
+            "sequence": "2",
+            "responsible_role": "1",
+            "accountable_role": "153",
+            "consulted_role": "130",
+            "informed_role": "155",
+            "description ": "SalesOrder is in the Qualify phase of the Sales Lifecycle. "
+        },
+        {
+            "name": "Sales Lifecycle",
+            "primary_model": "SalesOrder",
+            "phase": "Quote",
+            "sequence": "3",
+            "responsible_role": "154",
+            "accountable_role": "153",
+            "consulted_role": "130",
+            "informed_role": "155",
+            "description ": "SalesOrder is in the Quote phase of the Sales Lifecycle. "
+        },
+        {
+            "name": "Sales Lifecycle",
+            "primary_model": "SalesOrder",
+            "phase": "Negotiate",
+            "sequence": "4",
+            "responsible_role": "153",
+            "accountable_role": "153",
+            "consulted_role": "130",
+            "informed_role": "155",
+            "description ": "SalesOrder is in the Negotiate phase of the Sales Lifecycle. "
+        },
+        {
+            "name": "Sales Lifecycle",
+            "primary_model": "SalesOrder",
+            "phase": "Win",
+            "sequence": "5",
+            "responsible_role": "1",
+            "accountable_role": "153",
+            "consulted_role": "130",
+            "informed_role": "155",
+            "description ": "SalesOrder is in the Win phase of the Sales Lifecycle. "
+        },
+        {
+            "name": "Order Lifecycle",
+            "primary_model": "SalesOrder",
+            "phase": "Receive",
+            "sequence": "1",
+            "responsible_role": "112",
+            "accountable_role": "111",
+            "consulted_role": "125",
+            "informed_role": "35",
+            "description ": "SalesOrder is in the Receive phase of the Order Lifecycle. "
+        },
+        {
+            "name": "Order Lifecycle",
+            "primary_model": "SalesOrder",
+            "phase": "Review",
+            "sequence": "2",
+            "responsible_role": "112",
+            "accountable_role": "111",
+            "consulted_role": "125",
+            "informed_role": "35",
+            "description ": "SalesOrder is in the Review phase of the Order Lifecycle. "
+        },
+        {
+            "name": "Order Lifecycle",
+            "primary_model": "SalesOrder",
+            "phase": "Schedule",
+            "sequence": "3",
+            "responsible_role": "125",
+            "accountable_role": "111",
+            "consulted_role": "125",
+            "informed_role": "35",
+            "description ": "SalesOrder is in the Schedule phase of the Order Lifecycle. "
+        },
+        {
+            "name": "Order Lifecycle",
+            "primary_model": "SalesOrder",
+            "phase": "Fulfill",
+            "sequence": "4",
+            "responsible_role": "65",
+            "accountable_role": "111",
+            "consulted_role": "125",
+            "informed_role": "35",
+            "description ": "SalesOrder is in the Fulfill phase of the Order Lifecycle. "
+        },
+        {
+            "name": "Order Lifecycle",
+            "primary_model": "SalesOrder",
+            "phase": "Close",
+            "sequence": "5",
+            "responsible_role": "112",
+            "accountable_role": "111",
+            "consulted_role": "125",
+            "informed_role": "35",
+            "description ": "SalesOrder is in the Close phase of the Order Lifecycle. "
+        },
+        {
+            "name": "Production Lifecycle",
+            "primary_model": "ProductionOrder",
+            "phase": "Plan",
+            "sequence": "1",
+            "responsible_role": "125",
+            "accountable_role": "123",
+            "consulted_role": "122",
+            "informed_role": "123",
+            "description ": "ProductionOrder is in the Plan phase of the Production Lifecycle. "
+        },
+        {
+            "name": "Production Lifecycle",
+            "primary_model": "ProductionOrder",
+            "phase": "Schedule",
+            "sequence": "2",
+            "responsible_role": "125",
+            "accountable_role": "123",
+            "consulted_role": "122",
+            "informed_role": "123",
+            "description ": "ProductionOrder is in the Schedule phase of the Production Lifecycle. "
+        },
+        {
+            "name": "Production Lifecycle",
+            "primary_model": "ProductionOrder",
+            "phase": "Produce",
+            "sequence": "3",
+            "responsible_role": "124",
+            "accountable_role": "126",
+            "consulted_role": "122",
+            "informed_role": "123",
+            "description ": "ProductionOrder is in the Produce phase of the Production Lifecycle. "
+        },
+        {
+            "name": "Production Lifecycle",
+            "primary_model": "ProductionOrder",
+            "phase": "Monitor",
+            "sequence": "4",
+            "responsible_role": "122",
+            "accountable_role": "123",
+            "consulted_role": "122",
+            "informed_role": "123",
+            "description ": "ProductionOrder is in the Monitor phase of the Production Lifecycle. "
+        },
+        {
+            "name": "Production Lifecycle",
+            "primary_model": "ProductionOrder",
+            "phase": "Optimize",
+            "sequence": "5",
+            "responsible_role": "97",
+            "accountable_role": "99",
+            "consulted_role": "122",
+            "informed_role": "123",
+            "description ": "ProductionOrder is in the Optimize phase of the Production Lifecycle. "
+        },
+        {
+            "name": "Manufacturing Process Lifecycle",
+            "primary_model": "ManufacturingProcess",
+            "phase": "Design",
+            "sequence": "1",
+            "responsible_role": "119",
+            "accountable_role": "98",
+            "consulted_role": "138",
+            "informed_role": "127",
+            "description ": "ManufacturingProcess is in the Design phase of the Manufacturing Process Lifecycle. "
+        },
+        {
+            "name": "Manufacturing Process Lifecycle",
+            "primary_model": "ManufacturingProcess",
+            "phase": "Qualify",
+            "sequence": "2",
+            "responsible_role": "138",
+            "accountable_role": "98",
+            "consulted_role": "138",
+            "informed_role": "127",
+            "description ": "ManufacturingProcess is in the Qualify phase of the Manufacturing Process Lifecycle. "
+        },
+        {
+            "name": "Manufacturing Process Lifecycle",
+            "primary_model": "ManufacturingProcess",
+            "phase": "Operate",
+            "sequence": "3",
+            "responsible_role": "124",
+            "accountable_role": "98",
+            "consulted_role": "138",
+            "informed_role": "127",
+            "description ": "ManufacturingProcess is in the Operate phase of the Manufacturing Process Lifecycle. "
+        },
+        {
+            "name": "Manufacturing Process Lifecycle",
+            "primary_model": "ManufacturingProcess",
+            "phase": "Control",
+            "sequence": "4",
+            "responsible_role": "119",
+            "accountable_role": "98",
+            "consulted_role": "138",
+            "informed_role": "127",
+            "description ": "ManufacturingProcess is in the Control phase of the Manufacturing Process Lifecycle. "
+        },
+        {
+            "name": "Manufacturing Process Lifecycle",
+            "primary_model": "ManufacturingProcess",
+            "phase": "Retire",
+            "sequence": "5",
+            "responsible_role": "52",
+            "accountable_role": "98",
+            "consulted_role": "138",
+            "informed_role": "127",
+            "description ": "ManufacturingProcess is in the Retire phase of the Manufacturing Process Lifecycle. "
+        },
+        {
+            "name": "Work Order Lifecycle",
+            "primary_model": "WorkOrder",
+            "phase": "Create",
+            "sequence": "1",
+            "responsible_role": "202",
+            "accountable_role": "203",
+            "consulted_role": "58",
+            "informed_role": "202",
+            "description ": "WorkOrder is in the Create phase of the Work Order Lifecycle. "
+        },
+        {
+            "name": "Work Order Lifecycle",
+            "primary_model": "WorkOrder",
+            "phase": "Release",
+            "sequence": "2",
+            "responsible_role": "201",
+            "accountable_role": "203",
+            "consulted_role": "58",
+            "informed_role": "202",
+            "description ": "WorkOrder is in the Release phase of the Work Order Lifecycle. "
+        },
+        {
+            "name": "Work Order Lifecycle",
+            "primary_model": "WorkOrder",
+            "phase": "Execute",
+            "sequence": "3",
+            "responsible_role": "8",
+            "accountable_role": "203",
+            "consulted_role": "58",
+            "informed_role": "202",
+            "description ": "WorkOrder is in the Execute phase of the Work Order Lifecycle. "
+        },
+        {
+            "name": "Work Order Lifecycle",
+            "primary_model": "WorkOrder",
+            "phase": "Verify",
+            "sequence": "4",
+            "responsible_role": "203",
+            "accountable_role": "203",
+            "consulted_role": "58",
+            "informed_role": "202",
+            "description ": "WorkOrder is in the Verify phase of the Work Order Lifecycle. "
+        },
+        {
+            "name": "Work Order Lifecycle",
+            "primary_model": "WorkOrder",
+            "phase": "Close",
+            "sequence": "5",
+            "responsible_role": "201",
+            "accountable_role": "92",
+            "consulted_role": "58",
+            "informed_role": "202",
+            "description ": "WorkOrder is in the Close phase of the Work Order Lifecycle. "
+        },
+        {
+            "name": "Quality Lifecycle",
+            "primary_model": "QualityRecord",
+            "phase": "Plan",
+            "sequence": "1",
+            "responsible_role": "140",
+            "accountable_role": "140",
+            "consulted_role": "120",
+            "informed_role": "123",
+            "description ": "QualityRecord is in the Plan phase of the Quality Lifecycle. "
+        },
+        {
+            "name": "Quality Lifecycle",
+            "primary_model": "QualityRecord",
+            "phase": "Assure",
+            "sequence": "2",
+            "responsible_role": "138",
+            "accountable_role": "140",
+            "consulted_role": "120",
+            "informed_role": "123",
+            "description ": "QualityRecord is in the Assure phase of the Quality Lifecycle. "
+        },
+        {
+            "name": "Quality Lifecycle",
+            "primary_model": "QualityRecord",
+            "phase": "Control",
+            "sequence": "3",
+            "responsible_role": "139",
+            "accountable_role": "140",
+            "consulted_role": "120",
+            "informed_role": "123",
+            "description ": "QualityRecord is in the Control phase of the Quality Lifecycle. "
+        },
+        {
+            "name": "Quality Lifecycle",
+            "primary_model": "QualityRecord",
+            "phase": "Audit",
+            "sequence": "4",
+            "responsible_role": "137",
+            "accountable_role": "140",
+            "consulted_role": "120",
+            "informed_role": "123",
+            "description ": "QualityRecord is in the Audit phase of the Quality Lifecycle. "
+        },
+        {
+            "name": "Quality Lifecycle",
+            "primary_model": "QualityRecord",
+            "phase": "Improve",
+            "sequence": "5",
+            "responsible_role": "140",
+            "accountable_role": "140",
+            "consulted_role": "120",
+            "informed_role": "123",
+            "description ": "QualityRecord is in the Improve phase of the Quality Lifecycle. "
+        },
+        {
+            "name": "CAPA Lifecycle",
+            "primary_model": "Capa",
+            "phase": "Detect",
+            "sequence": "1",
+            "responsible_role": "124",
+            "accountable_role": "140",
+            "consulted_role": "120",
+            "informed_role": "4",
+            "description ": "Capa is in the Detect phase of the CAPA Lifecycle. "
+        },
+        {
+            "name": "CAPA Lifecycle",
+            "primary_model": "Capa",
+            "phase": "Investigate",
+            "sequence": "2",
+            "responsible_role": "138",
+            "accountable_role": "140",
+            "consulted_role": "120",
+            "informed_role": "4",
+            "description ": "Capa is in the Investigate phase of the CAPA Lifecycle. "
+        },
+        {
+            "name": "CAPA Lifecycle",
+            "primary_model": "Capa",
+            "phase": "Correct",
+            "sequence": "3",
+            "responsible_role": "120",
+            "accountable_role": "140",
+            "consulted_role": "120",
+            "informed_role": "4",
+            "description ": "Capa is in the Correct phase of the CAPA Lifecycle. "
+        },
+        {
+            "name": "CAPA Lifecycle",
+            "primary_model": "Capa",
+            "phase": "Verify",
+            "sequence": "4",
+            "responsible_role": "137",
+            "accountable_role": "140",
+            "consulted_role": "120",
+            "informed_role": "4",
+            "description ": "Capa is in the Verify phase of the CAPA Lifecycle. "
+        },
+        {
+            "name": "CAPA Lifecycle",
+            "primary_model": "Capa",
+            "phase": "Close",
+            "sequence": "5",
+            "responsible_role": "140",
+            "accountable_role": "140",
+            "consulted_role": "120",
+            "informed_role": "4",
+            "description ": "Capa is in the Close phase of the CAPA Lifecycle. "
+        },
+        {
+            "name": "Engineering Change Lifecycle",
+            "primary_model": "EngineeringChange",
+            "phase": "Request",
+            "sequence": "1",
+            "responsible_role": "22",
+            "accountable_role": "20",
+            "consulted_role": "138",
+            "informed_role": "2",
+            "description ": "EngineeringChange is in the Request phase of the Engineering Change Lifecycle. "
+        },
+        {
+            "name": "Engineering Change Lifecycle",
+            "primary_model": "EngineeringChange",
+            "phase": "Assess",
+            "sequence": "2",
+            "responsible_role": "21",
+            "accountable_role": "20",
+            "consulted_role": "138",
+            "informed_role": "2",
+            "description ": "EngineeringChange is in the Assess phase of the Engineering Change Lifecycle. "
+        },
+        {
+            "name": "Engineering Change Lifecycle",
+            "primary_model": "EngineeringChange",
+            "phase": "Approve",
+            "sequence": "3",
+            "responsible_role": "20",
+            "accountable_role": "20",
+            "consulted_role": "138",
+            "informed_role": "2",
+            "description ": "EngineeringChange is in the Approve phase of the Engineering Change Lifecycle. "
+        },
+        {
+            "name": "Engineering Change Lifecycle",
+            "primary_model": "EngineeringChange",
+            "phase": "Implement",
+            "sequence": "4",
+            "responsible_role": "71",
+            "accountable_role": "52",
+            "consulted_role": "138",
+            "informed_role": "2",
+            "description ": "EngineeringChange is in the Implement phase of the Engineering Change Lifecycle. "
+        },
+        {
+            "name": "Engineering Change Lifecycle",
+            "primary_model": "EngineeringChange",
+            "phase": "Validate",
+            "sequence": "5",
+            "responsible_role": "193",
+            "accountable_role": "20",
+            "consulted_role": "138",
+            "informed_role": "2",
+            "description ": "EngineeringChange is in the Validate phase of the Engineering Change Lifecycle. "
+        },
+        {
+            "name": "Incident Lifecycle",
+            "primary_model": "Incident",
+            "phase": "Report",
+            "sequence": "1",
+            "responsible_role": "124",
+            "accountable_role": "73",
+            "consulted_role": "50",
+            "informed_role": "163",
+            "description ": "Incident is in the Report phase of the Incident Lifecycle. "
+        },
+        {
+            "name": "Incident Lifecycle",
+            "primary_model": "Incident",
+            "phase": "Contain",
+            "sequence": "2",
+            "responsible_role": "74",
+            "accountable_role": "74",
+            "consulted_role": "50",
+            "informed_role": "163",
+            "description ": "Incident is in the Contain phase of the Incident Lifecycle. "
+        },
+        {
+            "name": "Incident Lifecycle",
+            "primary_model": "Incident",
+            "phase": "Investigate",
+            "sequence": "3",
+            "responsible_role": "72",
+            "accountable_role": "73",
+            "consulted_role": "50",
+            "informed_role": "163",
+            "description ": "Incident is in the Investigate phase of the Incident Lifecycle. "
+        },
+        {
+            "name": "Incident Lifecycle",
+            "primary_model": "Incident",
+            "phase": "Resolve",
+            "sequence": "4",
+            "responsible_role": "145",
+            "accountable_role": "73",
+            "consulted_role": "50",
+            "informed_role": "163",
+            "description ": "Incident is in the Resolve phase of the Incident Lifecycle. "
+        },
+        {
+            "name": "Incident Lifecycle",
+            "primary_model": "Incident",
+            "phase": "Close",
+            "sequence": "5",
+            "responsible_role": "73",
+            "accountable_role": "73",
+            "consulted_role": "50",
+            "informed_role": "163",
+            "description ": "Incident is in the Close phase of the Incident Lifecycle. "
+        },
+        {
+            "name": "Asset Lifecycle",
+            "primary_model": "Asset",
+            "phase": "Plan",
+            "sequence": "1",
+            "responsible_role": "6",
+            "accountable_role": "6",
+            "consulted_role": "64",
+            "informed_role": "5",
+            "description ": "Asset is in the Plan phase of the Asset Lifecycle. "
+        },
+        {
+            "name": "Asset Lifecycle",
+            "primary_model": "Asset",
+            "phase": "Acquire",
+            "sequence": "2",
+            "responsible_role": "121",
+            "accountable_role": "121",
+            "consulted_role": "64",
+            "informed_role": "5",
+            "description ": "Asset is in the Acquire phase of the Asset Lifecycle. "
+        },
+        {
+            "name": "Asset Lifecycle",
+            "primary_model": "Asset",
+            "phase": "Operate",
+            "sequence": "3",
+            "responsible_role": "7",
+            "accountable_role": "6",
+            "consulted_role": "64",
+            "informed_role": "5",
+            "description ": "Asset is in the Operate phase of the Asset Lifecycle. "
+        },
+        {
+            "name": "Asset Lifecycle",
+            "primary_model": "Asset",
+            "phase": "Maintain",
+            "sequence": "4",
+            "responsible_role": "91",
+            "accountable_role": "6",
+            "consulted_role": "64",
+            "informed_role": "5",
+            "description ": "Asset is in the Maintain phase of the Asset Lifecycle. "
+        },
+        {
+            "name": "Asset Lifecycle",
+            "primary_model": "Asset",
+            "phase": "Dispose",
+            "sequence": "5",
+            "responsible_role": "6",
+            "accountable_role": "6",
+            "consulted_role": "64",
+            "informed_role": "5",
+            "description ": "Asset is in the Dispose phase of the Asset Lifecycle. "
+        },
+        {
+            "name": "Equipment Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Specify",
+            "sequence": "1",
+            "responsible_role": "56",
+            "accountable_role": "57",
+            "consulted_role": "122",
+            "informed_role": "6",
+            "description ": "Equipment is in the Specify phase of the Equipment Lifecycle. "
+        },
+        {
+            "name": "Equipment Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Install",
+            "sequence": "2",
+            "responsible_role": "132",
+            "accountable_role": "52",
+            "consulted_role": "122",
+            "informed_role": "6",
+            "description ": "Equipment is in the Install phase of the Equipment Lifecycle. "
+        },
+        {
+            "name": "Equipment Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Operate",
+            "sequence": "3",
+            "responsible_role": "124",
+            "accountable_role": "57",
+            "consulted_role": "122",
+            "informed_role": "6",
+            "description ": "Equipment is in the Operate phase of the Equipment Lifecycle. "
+        },
+        {
+            "name": "Equipment Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Maintain",
+            "sequence": "4",
+            "responsible_role": "91",
+            "accountable_role": "57",
+            "consulted_role": "122",
+            "informed_role": "6",
+            "description ": "Equipment is in the Maintain phase of the Equipment Lifecycle. "
+        },
+        {
+            "name": "Equipment Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Decommission",
+            "sequence": "5",
+            "responsible_role": "6",
+            "accountable_role": "57",
+            "consulted_role": "122",
+            "informed_role": "6",
+            "description ": "Equipment is in the Decommission phase of the Equipment Lifecycle. "
+        },
+        {
+            "name": "Maintenance Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Plan",
+            "sequence": "1",
+            "responsible_role": "93",
+            "accountable_role": "92",
+            "consulted_role": "58",
+            "informed_role": "125",
+            "description ": "Equipment is in the Plan phase of the Maintenance Lifecycle. "
+        },
+        {
+            "name": "Maintenance Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Schedule",
+            "sequence": "2",
+            "responsible_role": "94",
+            "accountable_role": "92",
+            "consulted_role": "58",
+            "informed_role": "125",
+            "description ": "Equipment is in the Schedule phase of the Maintenance Lifecycle. "
+        },
+        {
+            "name": "Maintenance Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Execute",
+            "sequence": "3",
+            "responsible_role": "96",
+            "accountable_role": "92",
+            "consulted_role": "58",
+            "informed_role": "125",
+            "description ": "Equipment is in the Execute phase of the Maintenance Lifecycle. "
+        },
+        {
+            "name": "Maintenance Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Verify",
+            "sequence": "4",
+            "responsible_role": "95",
+            "accountable_role": "92",
+            "consulted_role": "58",
+            "informed_role": "125",
+            "description ": "Equipment is in the Verify phase of the Maintenance Lifecycle. "
+        },
+        {
+            "name": "Maintenance Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Analyze",
+            "sequence": "5",
+            "responsible_role": "144",
+            "accountable_role": "92",
+            "consulted_role": "58",
+            "informed_role": "125",
+            "description ": "Equipment is in the Analyze phase of the Maintenance Lifecycle. "
+        },
+        {
+            "name": "Tooling Lifecycle",
+            "primary_model": "Tool",
+            "phase": "Design",
+            "sequence": "1",
+            "responsible_role": "186",
+            "accountable_role": "187",
+            "consulted_role": "122",
+            "informed_role": "190",
+            "description ": "Tool is in the Design phase of the Tooling Lifecycle. "
+        },
+        {
+            "name": "Tooling Lifecycle",
+            "primary_model": "Tool",
+            "phase": "Build",
+            "sequence": "2",
+            "responsible_role": "188",
+            "accountable_role": "187",
+            "consulted_role": "122",
+            "informed_role": "190",
+            "description ": "Tool is in the Build phase of the Tooling Lifecycle. "
+        },
+        {
+            "name": "Tooling Lifecycle",
+            "primary_model": "Tool",
+            "phase": "Qualify",
+            "sequence": "3",
+            "responsible_role": "138",
+            "accountable_role": "187",
+            "consulted_role": "122",
+            "informed_role": "190",
+            "description ": "Tool is in the Qualify phase of the Tooling Lifecycle. "
+        },
+        {
+            "name": "Tooling Lifecycle",
+            "primary_model": "Tool",
+            "phase": "Use",
+            "sequence": "4",
+            "responsible_role": "189",
+            "accountable_role": "187",
+            "consulted_role": "122",
+            "informed_role": "190",
+            "description ": "Tool is in the Use phase of the Tooling Lifecycle. "
+        },
+        {
+            "name": "Tooling Lifecycle",
+            "primary_model": "Tool",
+            "phase": "Retire",
+            "sequence": "5",
+            "responsible_role": "186",
+            "accountable_role": "187",
+            "consulted_role": "122",
+            "informed_role": "190",
+            "description ": "Tool is in the Retire phase of the Tooling Lifecycle. "
+        },
+        {
+            "name": "Calibration Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Plan",
+            "sequence": "1",
+            "responsible_role": "15",
+            "accountable_role": "140",
+            "consulted_role": "58",
+            "informed_role": "126",
+            "description ": "Equipment is in the Plan phase of the Calibration Lifecycle. "
+        },
+        {
+            "name": "Calibration Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Calibrate",
+            "sequence": "2",
+            "responsible_role": "16",
+            "accountable_role": "140",
+            "consulted_role": "58",
+            "informed_role": "126",
+            "description ": "Equipment is in the Calibrate phase of the Calibration Lifecycle. "
+        },
+        {
+            "name": "Calibration Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Verify",
+            "sequence": "3",
+            "responsible_role": "106",
+            "accountable_role": "140",
+            "consulted_role": "58",
+            "informed_role": "126",
+            "description ": "Equipment is in the Verify phase of the Calibration Lifecycle. "
+        },
+        {
+            "name": "Calibration Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Release",
+            "sequence": "4",
+            "responsible_role": "138",
+            "accountable_role": "140",
+            "consulted_role": "58",
+            "informed_role": "126",
+            "description ": "Equipment is in the Release phase of the Calibration Lifecycle. "
+        },
+        {
+            "name": "Calibration Lifecycle",
+            "primary_model": "Equipment",
+            "phase": "Recalibrate",
+            "sequence": "5",
+            "responsible_role": "15",
+            "accountable_role": "140",
+            "consulted_role": "58",
+            "informed_role": "126",
+            "description ": "Equipment is in the Recalibrate phase of the Calibration Lifecycle. "
+        },
+        {
+            "name": "Facility Lifecycle",
+            "primary_model": "Location",
+            "phase": "Design",
+            "sequence": "1",
+            "responsible_role": "61",
+            "accountable_role": "63",
+            "consulted_role": "50",
+            "informed_role": "164",
+            "description ": "Location is in the Design phase of the Facility Lifecycle. "
+        },
+        {
+            "name": "Facility Lifecycle",
+            "primary_model": "Location",
+            "phase": "Construct",
+            "sequence": "2",
+            "responsible_role": "133",
+            "accountable_role": "63",
+            "consulted_role": "50",
+            "informed_role": "164",
+            "description ": "Location is in the Construct phase of the Facility Lifecycle. "
+        },
+        {
+            "name": "Facility Lifecycle",
+            "primary_model": "Location",
+            "phase": "Operate",
+            "sequence": "3",
+            "responsible_role": "63",
+            "accountable_role": "63",
+            "consulted_role": "50",
+            "informed_role": "164",
+            "description ": "Location is in the Operate phase of the Facility Lifecycle. "
+        },
+        {
+            "name": "Facility Lifecycle",
+            "primary_model": "Location",
+            "phase": "Maintain",
+            "sequence": "4",
+            "responsible_role": "62",
+            "accountable_role": "63",
+            "consulted_role": "50",
+            "informed_role": "164",
+            "description ": "Location is in the Maintain phase of the Facility Lifecycle. "
+        },
+        {
+            "name": "Facility Lifecycle",
+            "primary_model": "Location",
+            "phase": "Decommission",
+            "sequence": "5",
+            "responsible_role": "63",
+            "accountable_role": "63",
+            "consulted_role": "50",
+            "informed_role": "164",
+            "description ": "Location is in the Decommission phase of the Facility Lifecycle. "
+        },
+        {
+            "name": "Technology Lifecycle",
+            "primary_model": "System",
+            "phase": "Select",
+            "sequence": "1",
+            "responsible_role": "53",
+            "accountable_role": "79",
+            "consulted_role": "75",
+            "informed_role": "180",
+            "description ": "System is in the Select phase of the Technology Lifecycle. "
+        },
+        {
+            "name": "Technology Lifecycle",
+            "primary_model": "System",
+            "phase": "Implement",
+            "sequence": "2",
+            "responsible_role": "178",
+            "accountable_role": "79",
+            "consulted_role": "75",
+            "informed_role": "180",
+            "description ": "System is in the Implement phase of the Technology Lifecycle. "
+        },
+        {
+            "name": "Technology Lifecycle",
+            "primary_model": "System",
+            "phase": "Operate",
+            "sequence": "3",
+            "responsible_role": "179",
+            "accountable_role": "79",
+            "consulted_role": "75",
+            "informed_role": "180",
+            "description ": "System is in the Operate phase of the Technology Lifecycle. "
+        },
+        {
+            "name": "Technology Lifecycle",
+            "primary_model": "System",
+            "phase": "Upgrade",
+            "sequence": "4",
+            "responsible_role": "165",
+            "accountable_role": "79",
+            "consulted_role": "75",
+            "informed_role": "180",
+            "description ": "System is in the Upgrade phase of the Technology Lifecycle. "
+        },
+        {
+            "name": "Technology Lifecycle",
+            "primary_model": "System",
+            "phase": "Retire",
+            "sequence": "5",
+            "responsible_role": "179",
+            "accountable_role": "79",
+            "consulted_role": "75",
+            "informed_role": "180",
+            "description ": "System is in the Retire phase of the Technology Lifecycle. "
+        },
+        {
+            "name": "Material Lifecycle",
+            "primary_model": "Material",
+            "phase": "Source",
+            "sequence": "1",
+            "responsible_role": "104",
+            "accountable_role": "102",
+            "consulted_role": "139",
+            "informed_role": "77",
+            "description ": "Material is in the Source phase of the Material Lifecycle. "
+        },
+        {
+            "name": "Material Lifecycle",
+            "primary_model": "Material",
+            "phase": "Receive",
+            "sequence": "2",
+            "responsible_role": "142",
+            "accountable_role": "102",
+            "consulted_role": "139",
+            "informed_role": "77",
+            "description ": "Material is in the Receive phase of the Material Lifecycle. "
+        },
+        {
+            "name": "Material Lifecycle",
+            "primary_model": "Material",
+            "phase": "Store",
+            "sequence": "3",
+            "responsible_role": "197",
+            "accountable_role": "102",
+            "consulted_role": "139",
+            "informed_role": "77",
+            "description ": "Material is in the Store phase of the Material Lifecycle. "
+        },
+        {
+            "name": "Material Lifecycle",
+            "primary_model": "Material",
+            "phase": "Consume",
+            "sequence": "4",
+            "responsible_role": "124",
+            "accountable_role": "102",
+            "consulted_role": "139",
+            "informed_role": "77",
+            "description ": "Material is in the Consume phase of the Material Lifecycle. "
+        },
+        {
+            "name": "Material Lifecycle",
+            "primary_model": "Material",
+            "phase": "Dispose",
+            "sequence": "5",
+            "responsible_role": "198",
+            "accountable_role": "102",
+            "consulted_role": "139",
+            "informed_role": "77",
+            "description ": "Material is in the Dispose phase of the Material Lifecycle. "
+        },
+        {
+            "name": "Inventory Lifecycle",
+            "primary_model": "InventoryItem",
+            "phase": "Receive",
+            "sequence": "1",
+            "responsible_role": "141",
+            "accountable_role": "78",
+            "consulted_role": "104",
+            "informed_role": "174",
+            "description ": "InventoryItem is in the Receive phase of the Inventory Lifecycle. "
+        },
+        {
+            "name": "Inventory Lifecycle",
+            "primary_model": "InventoryItem",
+            "phase": "Store",
+            "sequence": "2",
+            "responsible_role": "197",
+            "accountable_role": "78",
+            "consulted_role": "104",
+            "informed_role": "174",
+            "description ": "InventoryItem is in the Store phase of the Inventory Lifecycle. "
+        },
+        {
+            "name": "Inventory Lifecycle",
+            "primary_model": "InventoryItem",
+            "phase": "Allocate",
+            "sequence": "3",
+            "responsible_role": "103",
+            "accountable_role": "78",
+            "consulted_role": "104",
+            "informed_role": "174",
+            "description ": "InventoryItem is in the Allocate phase of the Inventory Lifecycle. "
+        },
+        {
+            "name": "Inventory Lifecycle",
+            "primary_model": "InventoryItem",
+            "phase": "Count",
+            "sequence": "4",
+            "responsible_role": "77",
+            "accountable_role": "78",
+            "consulted_role": "104",
+            "informed_role": "174",
+            "description ": "InventoryItem is in the Count phase of the Inventory Lifecycle. "
+        },
+        {
+            "name": "Inventory Lifecycle",
+            "primary_model": "InventoryItem",
+            "phase": "Dispose",
+            "sequence": "5",
+            "responsible_role": "78",
+            "accountable_role": "78",
+            "consulted_role": "104",
+            "informed_role": "174",
+            "description ": "InventoryItem is in the Dispose phase of the Inventory Lifecycle. "
+        },
+        {
+            "name": "Supplier Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Identify",
+            "sequence": "1",
+            "responsible_role": "166",
+            "accountable_role": "121",
+            "consulted_role": "172",
+            "informed_role": "173",
+            "description ": "Agreement is in the Identify phase of the Supplier Lifecycle. "
+        },
+        {
+            "name": "Supplier Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Qualify",
+            "sequence": "2",
+            "responsible_role": "172",
+            "accountable_role": "121",
+            "consulted_role": "172",
+            "informed_role": "173",
+            "description ": "Agreement is in the Qualify phase of the Supplier Lifecycle. "
+        },
+        {
+            "name": "Supplier Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Approve",
+            "sequence": "3",
+            "responsible_role": "121",
+            "accountable_role": "121",
+            "consulted_role": "172",
+            "informed_role": "173",
+            "description ": "Agreement is in the Approve phase of the Supplier Lifecycle. "
+        },
+        {
+            "name": "Supplier Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Develop",
+            "sequence": "4",
+            "responsible_role": "171",
+            "accountable_role": "121",
+            "consulted_role": "172",
+            "informed_role": "173",
+            "description ": "Agreement is in the Develop phase of the Supplier Lifecycle. "
+        },
+        {
+            "name": "Supplier Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Exit",
+            "sequence": "5",
+            "responsible_role": "121",
+            "accountable_role": "121",
+            "consulted_role": "172",
+            "informed_role": "173",
+            "description ": "Agreement is in the Exit phase of the Supplier Lifecycle. "
+        },
+        {
+            "name": "Supply Chain Lifecycle",
+            "primary_model": "SupplyChainOrder",
+            "phase": "Source",
+            "sequence": "1",
+            "responsible_role": "174",
+            "accountable_role": "173",
+            "consulted_role": "40",
+            "informed_role": "35",
+            "description ": "SupplyChainOrder is in the Source phase of the Supply Chain Lifecycle. "
+        },
+        {
+            "name": "Supply Chain Lifecycle",
+            "primary_model": "SupplyChainOrder",
+            "phase": "Procure",
+            "sequence": "2",
+            "responsible_role": "14",
+            "accountable_role": "173",
+            "consulted_role": "40",
+            "informed_role": "35",
+            "description ": "SupplyChainOrder is in the Procure phase of the Supply Chain Lifecycle. "
+        },
+        {
+            "name": "Supply Chain Lifecycle",
+            "primary_model": "SupplyChainOrder",
+            "phase": "Produce",
+            "sequence": "3",
+            "responsible_role": "125",
+            "accountable_role": "123",
+            "consulted_role": "40",
+            "informed_role": "35",
+            "description ": "SupplyChainOrder is in the Produce phase of the Supply Chain Lifecycle. "
+        },
+        {
+            "name": "Supply Chain Lifecycle",
+            "primary_model": "SupplyChainOrder",
+            "phase": "Deliver",
+            "sequence": "4",
+            "responsible_role": "90",
+            "accountable_role": "90",
+            "consulted_role": "40",
+            "informed_role": "35",
+            "description ": "SupplyChainOrder is in the Deliver phase of the Supply Chain Lifecycle. "
+        },
+        {
+            "name": "Supply Chain Lifecycle",
+            "primary_model": "SupplyChainOrder",
+            "phase": "Return",
+            "sequence": "5",
+            "responsible_role": "146",
+            "accountable_role": "173",
+            "consulted_role": "40",
+            "informed_role": "35",
+            "description ": "SupplyChainOrder is in the Return phase of the Supply Chain Lifecycle. "
+        },
+        {
+            "name": "Logistics Lifecycle",
+            "primary_model": "Shipment",
+            "phase": "Pack",
+            "sequence": "1",
+            "responsible_role": "114",
+            "accountable_role": "90",
+            "consulted_role": "197",
+            "informed_role": "35",
+            "description ": "Shipment is in the Pack phase of the Logistics Lifecycle. "
+        },
+        {
+            "name": "Logistics Lifecycle",
+            "primary_model": "Shipment",
+            "phase": "Stage",
+            "sequence": "2",
+            "responsible_role": "103",
+            "accountable_role": "90",
+            "consulted_role": "197",
+            "informed_role": "35",
+            "description ": "Shipment is in the Stage phase of the Logistics Lifecycle. "
+        },
+        {
+            "name": "Logistics Lifecycle",
+            "primary_model": "Shipment",
+            "phase": "Ship",
+            "sequence": "3",
+            "responsible_role": "162",
+            "accountable_role": "90",
+            "consulted_role": "197",
+            "informed_role": "35",
+            "description ": "Shipment is in the Ship phase of the Logistics Lifecycle. "
+        },
+        {
+            "name": "Logistics Lifecycle",
+            "primary_model": "Shipment",
+            "phase": "Track",
+            "sequence": "4",
+            "responsible_role": "89",
+            "accountable_role": "90",
+            "consulted_role": "197",
+            "informed_role": "35",
+            "description ": "Shipment is in the Track phase of the Logistics Lifecycle. "
+        },
+        {
+            "name": "Logistics Lifecycle",
+            "primary_model": "Shipment",
+            "phase": "Deliver",
+            "sequence": "5",
+            "responsible_role": "38",
+            "accountable_role": "90",
+            "consulted_role": "197",
+            "informed_role": "35",
+            "description ": "Shipment is in the Deliver phase of the Logistics Lifecycle. "
+        },
+        {
+            "name": "Vendor Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Select",
+            "sequence": "1",
+            "responsible_role": "166",
+            "accountable_role": "194",
+            "consulted_role": "87",
+            "informed_role": "13",
+            "description ": "Agreement is in the Select phase of the Vendor Lifecycle. "
+        },
+        {
+            "name": "Vendor Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Contract",
+            "sequence": "2",
+            "responsible_role": "31",
+            "accountable_role": "194",
+            "consulted_role": "87",
+            "informed_role": "13",
+            "description ": "Agreement is in the Contract phase of the Vendor Lifecycle. "
+        },
+        {
+            "name": "Vendor Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Manage",
+            "sequence": "3",
+            "responsible_role": "194",
+            "accountable_role": "194",
+            "consulted_role": "87",
+            "informed_role": "13",
+            "description ": "Agreement is in the Manage phase of the Vendor Lifecycle. "
+        },
+        {
+            "name": "Vendor Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Review",
+            "sequence": "4",
+            "responsible_role": "195",
+            "accountable_role": "194",
+            "consulted_role": "87",
+            "informed_role": "13",
+            "description ": "Agreement is in the Review phase of the Vendor Lifecycle. "
+        },
+        {
+            "name": "Vendor Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Terminate",
+            "sequence": "5",
+            "responsible_role": "121",
+            "accountable_role": "194",
+            "consulted_role": "87",
+            "informed_role": "13",
+            "description ": "Agreement is in the Terminate phase of the Vendor Lifecycle. "
+        },
+        {
+            "name": "Contractor Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Qualify",
+            "sequence": "1",
+            "responsible_role": "30",
+            "accountable_role": "31",
+            "consulted_role": "50",
+            "informed_role": "163",
+            "description ": "Agreement is in the Qualify phase of the Contractor Lifecycle. "
+        },
+        {
+            "name": "Contractor Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Approve",
+            "sequence": "2",
+            "responsible_role": "31",
+            "accountable_role": "31",
+            "consulted_role": "50",
+            "informed_role": "163",
+            "description ": "Agreement is in the Approve phase of the Contractor Lifecycle. "
+        },
+        {
+            "name": "Contractor Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Mobilize",
+            "sequence": "3",
+            "responsible_role": "163",
+            "accountable_role": "31",
+            "consulted_role": "50",
+            "informed_role": "163",
+            "description ": "Agreement is in the Mobilize phase of the Contractor Lifecycle. "
+        },
+        {
+            "name": "Contractor Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Monitor",
+            "sequence": "4",
+            "responsible_role": "32",
+            "accountable_role": "31",
+            "consulted_role": "50",
+            "informed_role": "163",
+            "description ": "Agreement is in the Monitor phase of the Contractor Lifecycle. "
+        },
+        {
+            "name": "Contractor Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Exit",
+            "sequence": "5",
+            "responsible_role": "31",
+            "accountable_role": "31",
+            "consulted_role": "50",
+            "informed_role": "163",
+            "description ": "Agreement is in the Exit phase of the Contractor Lifecycle. "
+        },
+        {
+            "name": "Partner Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Identify",
+            "sequence": "1",
+            "responsible_role": "115",
+            "accountable_role": "115",
+            "consulted_role": "87",
+            "informed_role": "60",
+            "description ": "Agreement is in the Identify phase of the Partner Lifecycle. "
+        },
+        {
+            "name": "Partner Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Engage",
+            "sequence": "2",
+            "responsible_role": "12",
+            "accountable_role": "115",
+            "consulted_role": "87",
+            "informed_role": "60",
+            "description ": "Agreement is in the Engage phase of the Partner Lifecycle. "
+        },
+        {
+            "name": "Partner Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Collaborate",
+            "sequence": "3",
+            "responsible_role": "116",
+            "accountable_role": "115",
+            "consulted_role": "87",
+            "informed_role": "60",
+            "description ": "Agreement is in the Collaborate phase of the Partner Lifecycle. "
+        },
+        {
+            "name": "Partner Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Review",
+            "sequence": "4",
+            "responsible_role": "115",
+            "accountable_role": "115",
+            "consulted_role": "87",
+            "informed_role": "60",
+            "description ": "Agreement is in the Review phase of the Partner Lifecycle. "
+        },
+        {
+            "name": "Partner Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Renew",
+            "sequence": "5",
+            "responsible_role": "31",
+            "accountable_role": "115",
+            "consulted_role": "87",
+            "informed_role": "60",
+            "description ": "Agreement is in the Renew phase of the Partner Lifecycle. "
+        },
+        {
+            "name": "Customer Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Acquire",
+            "sequence": "1",
+            "responsible_role": "153",
+            "accountable_role": "153",
+            "consulted_role": "1",
+            "informed_role": "159",
+            "description ": "Agreement is in the Acquire phase of the Customer Lifecycle. "
+        },
+        {
+            "name": "Customer Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Onboard",
+            "sequence": "2",
+            "responsible_role": "37",
+            "accountable_role": "37",
+            "consulted_role": "1",
+            "informed_role": "159",
+            "description ": "Agreement is in the Onboard phase of the Customer Lifecycle. "
+        },
+        {
+            "name": "Customer Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Support",
+            "sequence": "3",
+            "responsible_role": "175",
+            "accountable_role": "37",
+            "consulted_role": "1",
+            "informed_role": "159",
+            "description ": "Agreement is in the Support phase of the Customer Lifecycle. "
+        },
+        {
+            "name": "Customer Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Retain",
+            "sequence": "4",
+            "responsible_role": "1",
+            "accountable_role": "37",
+            "consulted_role": "1",
+            "informed_role": "159",
+            "description ": "Agreement is in the Retain phase of the Customer Lifecycle. "
+        },
+        {
+            "name": "Customer Lifecycle",
+            "primary_model": "Agreement",
+            "phase": "Advocate",
+            "sequence": "5",
+            "responsible_role": "37",
+            "accountable_role": "37",
+            "consulted_role": "1",
+            "informed_role": "159",
+            "description ": "Agreement is in the Advocate phase of the Customer Lifecycle. "
+        },
+        {
+            "name": "Environmental Lifecycle",
+            "primary_model": "EnvironmentalRecord",
+            "phase": "Identify",
+            "sequence": "1",
+            "responsible_role": "124",
+            "accountable_role": "50",
+            "consulted_role": "120",
+            "informed_role": "163",
+            "description ": "EnvironmentalRecord is in the Identify phase of the Environmental Lifecycle. "
+        },
+        {
+            "name": "Environmental Lifecycle",
+            "primary_model": "EnvironmentalRecord",
+            "phase": "Assess",
+            "sequence": "2",
+            "responsible_role": "54",
+            "accountable_role": "50",
+            "consulted_role": "120",
+            "informed_role": "163",
+            "description ": "EnvironmentalRecord is in the Assess phase of the Environmental Lifecycle. "
+        },
+        {
+            "name": "Environmental Lifecycle",
+            "primary_model": "EnvironmentalRecord",
+            "phase": "Control",
+            "sequence": "3",
+            "responsible_role": "50",
+            "accountable_role": "50",
+            "consulted_role": "120",
+            "informed_role": "163",
+            "description ": "EnvironmentalRecord is in the Control phase of the Environmental Lifecycle. "
+        },
+        {
+            "name": "Environmental Lifecycle",
+            "primary_model": "EnvironmentalRecord",
+            "phase": "Monitor",
+            "sequence": "4",
+            "responsible_role": "55",
+            "accountable_role": "50",
+            "consulted_role": "120",
+            "informed_role": "163",
+            "description ": "EnvironmentalRecord is in the Monitor phase of the Environmental Lifecycle. "
+        },
+        {
+            "name": "Environmental Lifecycle",
+            "primary_model": "EnvironmentalRecord",
+            "phase": "Improve",
+            "sequence": "5",
+            "responsible_role": "50",
+            "accountable_role": "50",
+            "consulted_role": "120",
+            "informed_role": "163",
+            "description ": "EnvironmentalRecord is in the Improve phase of the Environmental Lifecycle. "
+        },
+        {
+            "name": "Sustainability Lifecycle",
+            "primary_model": "SustainabilityInitiative",
+            "phase": "Baseline",
+            "sequence": "1",
+            "responsible_role": "176",
+            "accountable_role": "177",
+            "consulted_role": "50",
+            "informed_role": "59",
+            "description ": "SustainabilityInitiative is in the Baseline phase of the Sustainability Lifecycle. "
+        },
+        {
+            "name": "Sustainability Lifecycle",
+            "primary_model": "SustainabilityInitiative",
+            "phase": "Target",
+            "sequence": "2",
+            "responsible_role": "177",
+            "accountable_role": "177",
+            "consulted_role": "50",
+            "informed_role": "59",
+            "description ": "SustainabilityInitiative is in the Target phase of the Sustainability Lifecycle. "
+        },
+        {
+            "name": "Sustainability Lifecycle",
+            "primary_model": "SustainabilityInitiative",
+            "phase": "Implement",
+            "sequence": "3",
+            "responsible_role": "76",
+            "accountable_role": "177",
+            "consulted_role": "50",
+            "informed_role": "59",
+            "description ": "SustainabilityInitiative is in the Implement phase of the Sustainability Lifecycle. "
+        },
+        {
+            "name": "Sustainability Lifecycle",
+            "primary_model": "SustainabilityInitiative",
+            "phase": "Measure",
+            "sequence": "4",
+            "responsible_role": "176",
+            "accountable_role": "177",
+            "consulted_role": "50",
+            "informed_role": "59",
+            "description ": "SustainabilityInitiative is in the Measure phase of the Sustainability Lifecycle. "
+        },
+        {
+            "name": "Sustainability Lifecycle",
+            "primary_model": "SustainabilityInitiative",
+            "phase": "Report",
+            "sequence": "5",
+            "responsible_role": "177",
+            "accountable_role": "177",
+            "consulted_role": "50",
+            "informed_role": "59",
+            "description ": "SustainabilityInitiative is in the Report phase of the Sustainability Lifecycle. "
+        },
+        {
+            "name": "Document Lifecycle",
+            "primary_model": "Document",
+            "phase": "Create",
+            "sequence": "1",
+            "responsible_role": "45",
+            "accountable_role": "47",
+            "consulted_role": "169",
+            "informed_role": "49",
+            "description ": "Document is in the Create phase of the Document Lifecycle. "
+        },
+        {
+            "name": "Document Lifecycle",
+            "primary_model": "Document",
+            "phase": "Review",
+            "sequence": "2",
+            "responsible_role": "48",
+            "accountable_role": "47",
+            "consulted_role": "169",
+            "informed_role": "49",
+            "description ": "Document is in the Review phase of the Document Lifecycle. "
+        },
+        {
+            "name": "Document Lifecycle",
+            "primary_model": "Document",
+            "phase": "Approve",
+            "sequence": "3",
+            "responsible_role": "44",
+            "accountable_role": "47",
+            "consulted_role": "169",
+            "informed_role": "49",
+            "description ": "Document is in the Approve phase of the Document Lifecycle. "
+        },
+        {
+            "name": "Document Lifecycle",
+            "primary_model": "Document",
+            "phase": "Publish",
+            "sequence": "4",
+            "responsible_role": "46",
+            "accountable_role": "47",
+            "consulted_role": "169",
+            "informed_role": "49",
+            "description ": "Document is in the Publish phase of the Document Lifecycle. "
+        },
+        {
+            "name": "Document Lifecycle",
+            "primary_model": "Document",
+            "phase": "Archive",
+            "sequence": "5",
+            "responsible_role": "143",
+            "accountable_role": "143",
+            "consulted_role": "169",
+            "informed_role": "49",
+            "description ": "Document is in the Archive phase of the Document Lifecycle. "
+        },
+        {
+            "name": "Knowledge Lifecycle",
+            "primary_model": "Version",
+            "phase": "Capture",
+            "sequence": "1",
+            "responsible_role": "80",
+            "accountable_role": "82",
+            "consulted_role": "169",
+            "informed_role": "84",
+            "description ": "Version is in the Capture phase of the Knowledge Lifecycle. "
+        },
+        {
+            "name": "Knowledge Lifecycle",
+            "primary_model": "Version",
+            "phase": "Store",
+            "sequence": "2",
+            "responsible_role": "82",
+            "accountable_role": "82",
+            "consulted_role": "169",
+            "informed_role": "84",
+            "description ": "Version is in the Store phase of the Knowledge Lifecycle. "
+        },
+        {
+            "name": "Knowledge Lifecycle",
+            "primary_model": "Version",
+            "phase": "Share",
+            "sequence": "3",
+            "responsible_role": "81",
+            "accountable_role": "82",
+            "consulted_role": "169",
+            "informed_role": "84",
+            "description ": "Version is in the Share phase of the Knowledge Lifecycle. "
+        },
+        {
+            "name": "Knowledge Lifecycle",
+            "primary_model": "Version",
+            "phase": "Apply",
+            "sequence": "4",
+            "responsible_role": "83",
+            "accountable_role": "82",
+            "consulted_role": "169",
+            "informed_role": "84",
+            "description ": "Version is in the Apply phase of the Knowledge Lifecycle. "
+        },
+        {
+            "name": "Knowledge Lifecycle",
+            "primary_model": "Version",
+            "phase": "Retain",
+            "sequence": "5",
+            "responsible_role": "82",
+            "accountable_role": "82",
+            "consulted_role": "169",
+            "informed_role": "84",
+            "description ": "Version is in the Retain phase of the Knowledge Lifecycle. "
+        }
+    ]
+}
