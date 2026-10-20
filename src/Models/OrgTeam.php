@@ -5,10 +5,13 @@ declare(strict_types=1);
 namespace Rimba\Organization\Models;
 
 use Illuminate\Database\Eloquent\Attributes\Fillable;
+use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Rimba\Can\Observers\OrgTeamRbacObserver;
 
+#[ObservedBy([OrgTeamRbacObserver::class])]
 #[Fillable([
     'org_unit_id',
     'name',

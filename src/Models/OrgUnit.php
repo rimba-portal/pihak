@@ -5,11 +5,14 @@ declare(strict_types=1);
 namespace Rimba\Organization\Models;
 
 use Illuminate\Database\Eloquent\Attributes\Fillable;
+use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Rimba\Can\Observers\OrgUnitRbacObserver;
 
+#[ObservedBy([OrgUnitRbacObserver::class])]
 #[Fillable([
     'org_corp_id',
     'parent_id',
