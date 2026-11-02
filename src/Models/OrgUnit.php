@@ -11,7 +11,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Rimba\Can\Observers\OrgUnitRbacObserver;
-use Rimba\Work\Concerns\HasOfferings;
+
+// use Rimba\Work\Concerns\HasOfferings;
 
 #[ObservedBy([OrgUnitRbacObserver::class])]
 #[Fillable([
@@ -26,7 +27,8 @@ use Rimba\Work\Concerns\HasOfferings;
 class OrgUnit extends Model
 {
     use HasFactory;
-    use HasOfferings;
+
+    // use HasOfferings;
 
     /**
      * Get the attributes that should be cast.
